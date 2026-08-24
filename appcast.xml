@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Ghostty Voice</title>
+        <item>
+            <title>0.17.1</title>
+            <pubDate>Tue, 25 Aug 2026 06:21:22 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.17.1</link>
+            <sparkle:version>54</sparkle:version>
+            <sparkle:shortVersionString>0.17.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 0.17.1
+
+- 新增 App 内“检查更新”，以后可以直接下载并安装新版本。
+- 更新包使用 Sparkle Ed25519 签名验证，不需要管理员权限。
+- 源码继续保存在私有仓库；公开下载仓库只包含安装包、校验值、版本说明和更新清单。
+- 新增中文会议记录、Apple 备忘录会议历史、Ollama 总结和每日待办衔接。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.17.1/NiumaVoiceAssistant-macos.zip" length="8934597" type="application/octet-stream" sparkle:edSignature="WP0hjJn3i2cs8WVTbdBEVk7/DvZnbvkr73Rb3WjgiqOWS4AiNBHBOHPQMyh9PWbbqBLWhynj6NeU5pLJzKoXCw=="/>
+        </item>
+    </channel>
+</rss>
