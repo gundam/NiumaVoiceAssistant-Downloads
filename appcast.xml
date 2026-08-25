@@ -3,6 +3,22 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.17.5</title>
+            <pubDate>Tue, 25 Aug 2026 08:37:28 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.17.5</link>
+            <sparkle:version>58</sparkle:version>
+            <sparkle:shortVersionString>0.17.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.17.5
+
+- 降低组合会议中本机麦克风的识别延迟。
+- 在“连贯”模式下，系统声音仍按 3 秒停顿保留完整句子，本机麦克风改为约 1 秒停顿即提交。
+- 本机麦克风片段优先进入 Whisper 识别队列，避免被较长的课程音频持续阻塞。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.17.5/NiumaVoiceAssistant-macos.zip" length="8942469" type="application/octet-stream" sparkle:edSignature="WfUC72V6jVsnN8fPHzI44Sy0pSyNwsSWNFi2AEtClIzVZCgDQ9x9Lb8ZrIZAhP5MUUYuV4lDeTIn2BTV5DGkAw=="/>
+        </item>
+        <item>
             <title>0.17.1</title>
             <pubDate>Tue, 25 Aug 2026 06:21:22 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.17.1</link>
