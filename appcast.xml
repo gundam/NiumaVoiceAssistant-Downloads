@@ -3,6 +3,23 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.17.9</title>
+            <pubDate>Tue, 25 Aug 2026 09:57:01 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.17.9</link>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>0.17.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.17.9
+
+- 将会议 Apple 备忘录批量同步改为可配置项。
+- 同步间隔可选 3、10、20、30、60 秒，默认 20 秒。
+- 提前写入阈值可选 5、10、20、30 条，默认 20 条。
+- 设置位于牛马右键 / 三点菜单和菜单栏的“备忘录同步”，会议进行中也可立即切换。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.17.9/NiumaVoiceAssistant-macos.zip" length="9032841" type="application/octet-stream" sparkle:edSignature="TaYuMkXtPnu5PdXPvwjeULtHB+b5V9EV8aybv04pmQDXnnvKT4DfptSO+iQUsqw+iQ1IDrqpQHl/izzCkzZSBg=="/>
+        </item>
+        <item>
             <title>0.17.5</title>
             <pubDate>Tue, 25 Aug 2026 08:37:28 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.17.5</link>
