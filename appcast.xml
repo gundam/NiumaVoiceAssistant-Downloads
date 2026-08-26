@@ -3,6 +3,24 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.18.4</title>
+            <pubDate>Wed, 26 Aug 2026 21:15:57 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.18.4</link>
+            <sparkle:version>67</sparkle:version>
+            <sparkle:shortVersionString>0.18.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.18.4
+
+- 无法直接写入目标 App 时，识别文字会立即自动复制，不再要求先点击“复制全部”。
+- 复制审核框增加“继续说”和“清空”；继续录音会沿用原目标，把新文字追加到现有内容并重新复制。
+- 修复中文会议实时文字显示过少或在最终短片段为空时消失的问题，保留有效的实时识别作为兜底结果。
+- 中文会议不再把长提示词传给 Whisper，避免安静或短音频反复识别出提示词本身。
+- 降低中文会议切段任务密度，并保持顶部状态稳定，不再在“正在识别”和“正在听”之间不断跳动。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.18.4/NiumaVoiceAssistant-macos.zip" length="10167596" type="application/octet-stream" sparkle:edSignature="gnxjS3O3abW0OgPOBCd0m7AGbyFNi7yf6T1Eug3FS0IxCuv/aKcFrORCTOMpQ64I1rzeGgbgZzLGtlPSopW8Cg=="/>
+        </item>
+        <item>
             <title>0.18.3</title>
             <pubDate>Wed, 26 Aug 2026 18:00:51 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.18.3</link>
@@ -35,23 +53,6 @@
 - 自定义图片仍保存在用户资料库，不会被新主题覆盖或复制进 Release。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.18.2/NiumaVoiceAssistant-macos.zip" length="10159385" type="application/octet-stream" sparkle:edSignature="j5Jn9htonQmC7+0fPpVUZUk0kZysBcPc7fOPJ3sYCmt/QvGUEOJqeqMLr+QzmqER0IcdO8PDTWFk1Lo9AAXYAA=="/>
-        </item>
-        <item>
-            <title>0.18.1</title>
-            <pubDate>Wed, 26 Aug 2026 15:05:51 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.18.1</link>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>0.18.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.18.1
-
-- 普通语音输入新增可配置的自动结束等待时间：1、1.5、2、3、4 或 5 秒，默认 2 秒。
-- 设置入口同时出现在 macOS 菜单栏和牛马右键 / 三点菜单，选择后立即保存，下次启动继续使用。
-- 录音状态、每日备忘语音和使用说明会显示当前等待秒数，不再固定写“约 2 秒”。
-- 新增 Microsoft Teams 网页字幕接入；实时会议可直接读取 Teams 字幕，录像回放仅在已有 transcript/CC 时可用，不会误导为所有录像都自带字幕。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.18.1/NiumaVoiceAssistant-macos.zip" length="9089080" type="application/octet-stream" sparkle:edSignature="Wn4p7Tz1Qd/rMSQEnPgsQiyXY9ydAds7IsYULhHK3IZW81gmuQlrIB3cvBc5oCY9BBlK8Q0hNuZ5Irpk5Z7xCg=="/>
         </item>
     </channel>
 </rss>
