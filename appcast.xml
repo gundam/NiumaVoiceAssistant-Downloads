@@ -3,6 +3,23 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.18.3</title>
+            <pubDate>Wed, 26 Aug 2026 18:00:51 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.18.3</link>
+            <sparkle:version>66</sparkle:version>
+            <sparkle:shortVersionString>0.18.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.18.3
+
+- 修复家庭 AI 服务器、模型路径、每日记录等系统输入框无法可靠复制粘贴的问题。
+- 所有可编辑输入框统一支持 `⌘C / ⌘V / ⌘X / ⌘A` 和 `Ctrl+C / Ctrl+V / Ctrl+X / Ctrl+A`。
+- 增加标准“编辑”菜单，并把快捷键直接路由到当前浮层或窗口的输入焦点，避免窗口切换后粘贴失效。
+- 增加真实 `NSTextField` 粘贴回归测试。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.18.3/NiumaVoiceAssistant-macos.zip" length="10163992" type="application/octet-stream" sparkle:edSignature="/Rca7guyVVZAEgbVSC4vVYPhWxdoKCHM+QYMPjr8nR9pqUFa/6Fx4njZ0/NcwZxSzuGv/Tzb0dhb39Pjl0EBCw=="/>
+        </item>
+        <item>
             <title>0.18.2</title>
             <pubDate>Wed, 26 Aug 2026 15:45:04 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.18.2</link>
@@ -35,23 +52,6 @@
 - 新增 Microsoft Teams 网页字幕接入；实时会议可直接读取 Teams 字幕，录像回放仅在已有 transcript/CC 时可用，不会误导为所有录像都自带字幕。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.18.1/NiumaVoiceAssistant-macos.zip" length="9089080" type="application/octet-stream" sparkle:edSignature="Wn4p7Tz1Qd/rMSQEnPgsQiyXY9ydAds7IsYULhHK3IZW81gmuQlrIB3cvBc5oCY9BBlK8Q0hNuZ5Irpk5Z7xCg=="/>
-        </item>
-        <item>
-            <title>0.17.9</title>
-            <pubDate>Tue, 25 Aug 2026 09:57:01 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.17.9</link>
-            <sparkle:version>62</sparkle:version>
-            <sparkle:shortVersionString>0.17.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.17.9
-
-- 将会议 Apple 备忘录批量同步改为可配置项。
-- 同步间隔可选 3、10、20、30、60 秒，默认 20 秒。
-- 提前写入阈值可选 5、10、20、30 条，默认 20 条。
-- 设置位于牛马右键 / 三点菜单和菜单栏的“备忘录同步”，会议进行中也可立即切换。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.17.9/NiumaVoiceAssistant-macos.zip" length="9032841" type="application/octet-stream" sparkle:edSignature="TaYuMkXtPnu5PdXPvwjeULtHB+b5V9EV8aybv04pmQDXnnvKT4DfptSO+iQUsqw+iQ1IDrqpQHl/izzCkzZSBg=="/>
         </item>
     </channel>
 </rss>
