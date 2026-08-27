@@ -3,6 +3,23 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.18.6</title>
+            <pubDate>Thu, 27 Aug 2026 09:03:03 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.18.6</link>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>0.18.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.18.6
+
+- 新增内置动画形象“浅蓝五脚蜘蛛”，可在“助手形象”菜单中直接切换。
+- 八个状态帧覆盖空闲、眨眼、听取、回应、思考、工作、成功和完成，角色的眼睛、表情和五条腿会真实改变动作。
+- 每个实际使用的动画帧都严格保留五条腿，不会自动变回普通八脚蜘蛛。
+- 形象选择保存在本机，重启或升级应用后仍会继续使用。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.18.6/NiumaVoiceAssistant-macos.zip" length="11103883" type="application/octet-stream" sparkle:edSignature="IsZKE2l0gTwJiPrPpjEwbqyTDKcpB2G8WAOs5sRKbzq7+v+QIpE4FzoprymCoZipD61Vd3rsximZnDGvWnE7AA=="/>
+        </item>
+        <item>
             <title>0.18.4</title>
             <pubDate>Wed, 26 Aug 2026 21:15:57 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.18.4</link>
@@ -36,23 +53,6 @@
 - 增加真实 `NSTextField` 粘贴回归测试。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.18.3/NiumaVoiceAssistant-macos.zip" length="10163992" type="application/octet-stream" sparkle:edSignature="/Rca7guyVVZAEgbVSC4vVYPhWxdoKCHM+QYMPjr8nR9pqUFa/6Fx4njZ0/NcwZxSzuGv/Tzb0dhb39Pjl0EBCw=="/>
-        </item>
-        <item>
-            <title>0.18.2</title>
-            <pubDate>Wed, 26 Aug 2026 15:45:04 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.18.2</link>
-            <sparkle:version>65</sparkle:version>
-            <sparkle:shortVersionString>0.18.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.18.2
-
-- 新增“牛来动画”内置助手形象，可在牛马右键 / 三点菜单的“助手形象”中即时切换。
-- 牛来主题包含 8 个透明动画帧：眨眼、倾听、开口、思考、工作、庆祝和完成，人物本身会随状态改变，不再只是整张图片移动。
-- 支持“经典牛马”“牛来动画”和已保存的自定义图片三种选择，当前选择会在升级和重启后保留。
-- 自定义图片仍保存在用户资料库，不会被新主题覆盖或复制进 Release。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.18.2/NiumaVoiceAssistant-macos.zip" length="10159385" type="application/octet-stream" sparkle:edSignature="j5Jn9htonQmC7+0fPpVUZUk0kZysBcPc7fOPJ3sYCmt/QvGUEOJqeqMLr+QzmqER0IcdO8PDTWFk1Lo9AAXYAA=="/>
         </item>
     </channel>
 </rss>
