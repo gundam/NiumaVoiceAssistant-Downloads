@@ -3,6 +3,36 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.0</title>
+            <pubDate>Fri, 28 Aug 2026 12:18:41 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.0</link>
+            <sparkle:version>73</sparkle:version>
+            <sparkle:shortVersionString>0.19.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.0
+
+## CMUX 终端直写
+
+- 新增 cmux 支持：自动判断能识别前台 cmux，也可以在“输入目标”中固定选择 cmux。
+- 使用 cmux 原生 `input text` 自动化接口写入当前聚焦终端面板，不需要辅助功能权限，
+  也绝不自动按回车。
+
+## 审核后复制支持一键翻译
+
+- 在“语音文字工作台 / 审核后复制”中新增“翻译”按钮。
+- 将编辑后的文字带入双向翻译窗口，并立刻使用当前本地或家庭 Ollama 模型翻译。
+- 原文始终保留在工作台中；翻译结果需要由用户自行复制粘贴，绝不自动发送到其他 App。
+
+## 其他改进
+
+- 助手动画改为首次使用时按需下载、校验并缓存，安装包不再携带完整动画帧。
+- 提供可选的“牛马语音输入法”和 VS Code 本地扩展，用于支持已建立输入会话的文本框；
+  不兼容的应用仍安全回退到可编辑审核复制。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.0/NiumaVoiceAssistant-macos.zip" length="9213695" type="application/octet-stream" sparkle:edSignature="ExpsUpdpgT59ujawv5/pIuyNBmHELRrT/et/S1tQZkFVmPgr/fRXBjkTzXboVemHmDPj1+AIoC4CI+s9+aTYCg=="/>
+        </item>
+        <item>
             <title>0.18.6</title>
             <pubDate>Thu, 27 Aug 2026 09:03:03 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.18.6</link>
@@ -36,23 +66,6 @@
 - 降低中文会议切段任务密度，并保持顶部状态稳定，不再在“正在识别”和“正在听”之间不断跳动。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.18.4/NiumaVoiceAssistant-macos.zip" length="10167596" type="application/octet-stream" sparkle:edSignature="gnxjS3O3abW0OgPOBCd0m7AGbyFNi7yf6T1Eug3FS0IxCuv/aKcFrORCTOMpQ64I1rzeGgbgZzLGtlPSopW8Cg=="/>
-        </item>
-        <item>
-            <title>0.18.3</title>
-            <pubDate>Wed, 26 Aug 2026 18:00:51 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.18.3</link>
-            <sparkle:version>66</sparkle:version>
-            <sparkle:shortVersionString>0.18.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.18.3
-
-- 修复家庭 AI 服务器、模型路径、每日记录等系统输入框无法可靠复制粘贴的问题。
-- 所有可编辑输入框统一支持 `⌘C / ⌘V / ⌘X / ⌘A` 和 `Ctrl+C / Ctrl+V / Ctrl+X / Ctrl+A`。
-- 增加标准“编辑”菜单，并把快捷键直接路由到当前浮层或窗口的输入焦点，避免窗口切换后粘贴失效。
-- 增加真实 `NSTextField` 粘贴回归测试。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.18.3/NiumaVoiceAssistant-macos.zip" length="10163992" type="application/octet-stream" sparkle:edSignature="/Rca7guyVVZAEgbVSC4vVYPhWxdoKCHM+QYMPjr8nR9pqUFa/6Fx4njZ0/NcwZxSzuGv/Tzb0dhb39Pjl0EBCw=="/>
         </item>
     </channel>
 </rss>
