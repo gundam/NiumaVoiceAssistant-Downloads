@@ -3,6 +3,25 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.6</title>
+            <pubDate>Sun, 30 Aug 2026 07:25:50 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.6</link>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>0.19.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.6
+
+## Esc 取消本次语音
+
+- 录音中按 `Esc` 会立即丢弃本次音频，不进行识别。
+- 正在识别最终文字时按 `Esc` 会取消识别，不会向目标 App 写入文字。
+- 该操作同样适用于翻译窗口语音输入与快速 ToDo 语音输入；不会保存任何内容。
+- 会议记录不会被 `Esc` 误取消，继续使用会议面板中的暂停或结束操作。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.6/NiumaVoiceAssistant-macos.zip" length="11880854" type="application/octet-stream" sparkle:edSignature="30ZKkahZaRBrzua9MCJ6UQNCTD3/j/LVohPc2wY59ny62C/1ThzanO05Ft6GdYtspqdIABxihbOZKf1+CsJOCQ=="/>
+        </item>
+        <item>
             <title>0.19.5</title>
             <pubDate>Sat, 29 Aug 2026 12:01:34 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.5</link>
@@ -38,24 +57,6 @@
 - 粘贴完成后会自动恢复此前的剪贴板内容；仍不会自动按回车、发送消息或执行命令。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.4/NiumaVoiceAssistant-macos.zip" length="11880712" type="application/octet-stream" sparkle:edSignature="9GEALZItFvjZ1M1tnMv+hxvvfdt/5IRwHwYvTu2Va3ilRwpw+3tiXmHIPY2X7KiZEhib/YES3Ko3VbUE8sXvCg=="/>
-        </item>
-        <item>
-            <title>0.19.3</title>
-            <pubDate>Sat, 29 Aug 2026 10:26:15 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.3</link>
-            <sparkle:version>76</sparkle:version>
-            <sparkle:shortVersionString>0.19.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.3
-
-## 辅助功能当前光标直写
-
-- 修复部分 VS Code、Qt、Figma、Teams 和浏览器中按全局快捷键后提示“找不到光标”的问题。
-- 录音开始时会同时从系统焦点、原前台应用以及最上层普通窗口捕获文本焦点，避免快捷键回调导致牛马短暂成为活动应用时丢失原来的光标。
-- 找不到光标时，提示会明确说明：把光标留在目标文本框中后直接按快捷键，不要先点牛马窗口。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.3/NiumaVoiceAssistant-macos.zip" length="11879684" type="application/octet-stream" sparkle:edSignature="k2bZTCNCqWAPpHvAZF0/6bDadJr3AY5fDiifN+Su4/KAPWfARlYQeJyLNyH9zpfLkzpE4uvHvnLQ0ly9bj0+Ag=="/>
         </item>
     </channel>
 </rss>
