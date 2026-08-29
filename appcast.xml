@@ -3,6 +3,24 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.4</title>
+            <pubDate>Sat, 29 Aug 2026 10:34:18 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.4</link>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>0.19.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.4
+
+## 辅助功能当前光标直写兼容性
+
+- 修复部分应用不暴露“当前光标”无障碍属性时，无法开始语音输入的问题。
+- 在已授权辅助功能的前提下，若无法取得文本控件，牛马会记住开始录音前的目标 App；识别结束后自动回到该 App 并模拟 `⌘V` 粘贴文字。
+- 粘贴完成后会自动恢复此前的剪贴板内容；仍不会自动按回车、发送消息或执行命令。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.4/NiumaVoiceAssistant-macos.zip" length="11880712" type="application/octet-stream" sparkle:edSignature="9GEALZItFvjZ1M1tnMv+hxvvfdt/5IRwHwYvTu2Va3ilRwpw+3tiXmHIPY2X7KiZEhib/YES3Ko3VbUE8sXvCg=="/>
+        </item>
+        <item>
             <title>0.19.3</title>
             <pubDate>Sat, 29 Aug 2026 10:26:15 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.3</link>
@@ -42,28 +60,6 @@
 - 输入法仍只安装到当前用户目录，不需要管理员密码。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.2/NiumaVoiceAssistant-macos.zip" length="11878658" type="application/octet-stream" sparkle:edSignature="mGvBiKQZQ5J3Sp3RDa1IZtPFT4wCQDvfnuzozWMPX8ikAL1/4157l7Wv+O6odKp8JMWTfMy4xZIaJ9UwkQTcAw=="/>
-        </item>
-        <item>
-            <title>0.19.1</title>
-            <pubDate>Fri, 28 Aug 2026 21:46:20 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.1</link>
-            <sparkle:version>74</sparkle:version>
-            <sparkle:shortVersionString>0.19.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.1
-
-## 全新应用图标
-
-- 换用更轻盈的浅色圆角应用图标，Dock、Finder、启动台和窗口图标均保持一致。
-- 输入法安装项同步使用新图标，不再显示白底旧形象。
-
-## 稳定性
-
-- 保持现有安全写入策略：支持原生接口或本地扩展的应用会直接写入；没有安全接口的应用继续显示可编辑文字并自动复制，避免丢失识别结果。
-- 未经辅助功能权限验证的通用“当前光标输入法”不作为兼容性承诺；VS Code 继续优先使用本地直写扩展。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.1/NiumaVoiceAssistant-macos.zip" length="11874731" type="application/octet-stream" sparkle:edSignature="3IK4FLjbnAehHDWfgOiPuJF6TUWf2X2zr2d11zX8heVTYPmYZl4NG3YBHHQTks5lQNMHoh0zWc/shg76H3mQBg=="/>
         </item>
     </channel>
 </rss>
