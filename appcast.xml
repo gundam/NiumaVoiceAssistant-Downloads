@@ -3,23 +3,30 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
-            <title>0.19.6</title>
-            <pubDate>Sun, 30 Aug 2026 07:25:50 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.6</link>
-            <sparkle:version>79</sparkle:version>
-            <sparkle:shortVersionString>0.19.6</sparkle:shortVersionString>
+            <title>0.19.7</title>
+            <pubDate>Sun, 30 Aug 2026 07:29:14 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.7</link>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>0.19.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.6
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.7
+
+## 编号快捷键
+
+- 新增 `⌃⌥1`：普通语音输入（原 `⌃⌥V` 和 `⌃⌥Space` 仍可用）。
+- 新增 `⌃⌥2`：打开快速双向翻译。
+- 新增 `⌃⌥3`：开始或结束会议记录。
+- 新增 `⌃⌥4`：打开会议历史与 AI 总结。
+- `⌃⌥T` 继续用于快速语音记 ToDo。
 
 ## Esc 取消本次语音
 
-- 录音中按 `Esc` 会立即丢弃本次音频，不进行识别。
-- 正在识别最终文字时按 `Esc` 会取消识别，不会向目标 App 写入文字。
-- 该操作同样适用于翻译窗口语音输入与快速 ToDo 语音输入；不会保存任何内容。
-- 会议记录不会被 `Esc` 误取消，继续使用会议面板中的暂停或结束操作。
+- 录音中按 `Esc` 会丢弃本次音频，不进行识别。
+- 最终识别中按 `Esc` 会取消识别，不会向目标 App 写入文字。
+- 翻译窗口语音输入和快速 ToDo 也支持 `Esc` 取消；会议记录不受影响。
 ]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.6/NiumaVoiceAssistant-macos.zip" length="11880854" type="application/octet-stream" sparkle:edSignature="30ZKkahZaRBrzua9MCJ6UQNCTD3/j/LVohPc2wY59ny62C/1ThzanO05Ft6GdYtspqdIABxihbOZKf1+CsJOCQ=="/>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.7/NiumaVoiceAssistant-macos.zip" length="11882015" type="application/octet-stream" sparkle:edSignature="nhzUkZzVbbTXEQIMfPm7VlyZHV0ct8EZFSbFWFF+C3OtbBIVuofn9A1rfQ1Bxsa/EGHwjf89bWfBXOzDawRJAg=="/>
         </item>
         <item>
             <title>0.19.5</title>
