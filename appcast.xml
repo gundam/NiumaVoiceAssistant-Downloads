@@ -3,6 +3,23 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.10</title>
+            <pubDate>Sun, 30 Aug 2026 10:37:24 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.10</link>
+            <sparkle:version>83</sparkle:version>
+            <sparkle:shortVersionString>0.19.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.10
+
+## 长语音分段写入
+
+- 分段识别现在会持续收音；上一段在后台识别时，后续说话会进入下一段队列。
+- 分段交接处增加续说缓冲，短暂停顿后重新开口不会被“普通语音自动结束”提前截断。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.10/NiumaVoiceAssistant-macos.zip" length="11891771" type="application/octet-stream" sparkle:edSignature="K+4eQ/oKhLE6JUXhGWtYhQFQdNwT7a7jcHfEVkIgMUaLOFIHn70hZ6BVEZSwkLHbLcPR6gBYHPCjqI982HjwCg=="/>
+        </item>
+        <item>
             <title>0.19.9</title>
             <pubDate>Sun, 30 Aug 2026 10:32:07 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.9</link>
@@ -38,32 +55,6 @@
 - 快速翻译、快速 ToDo 与会议记录维持完整会话处理，不受该开关影响。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.8/NiumaVoiceAssistant-macos.zip" length="11890819" type="application/octet-stream" sparkle:edSignature="nZcRy2eMSy8bRpvYoKuDp6GrojqvXmAOWFu9foX0EMOWPDgHnQ+x2Kr8mg/YkAyFgYZ0AvZ9XmHhEBRQQ/zeCw=="/>
-        </item>
-        <item>
-            <title>0.19.7</title>
-            <pubDate>Sun, 30 Aug 2026 07:29:14 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.7</link>
-            <sparkle:version>80</sparkle:version>
-            <sparkle:shortVersionString>0.19.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.7
-
-## 编号快捷键
-
-- 新增 `⌃⌥1`：普通语音输入（原 `⌃⌥V` 和 `⌃⌥Space` 仍可用）。
-- 新增 `⌃⌥2`：打开快速双向翻译。
-- 新增 `⌃⌥3`：开始或结束会议记录。
-- 新增 `⌃⌥4`：打开会议历史与 AI 总结。
-- `⌃⌥T` 继续用于快速语音记 ToDo。
-
-## Esc 取消本次语音
-
-- 录音中按 `Esc` 会丢弃本次音频，不进行识别。
-- 最终识别中按 `Esc` 会取消识别，不会向目标 App 写入文字。
-- 翻译窗口语音输入和快速 ToDo 也支持 `Esc` 取消；会议记录不受影响。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.7/NiumaVoiceAssistant-macos.zip" length="11882015" type="application/octet-stream" sparkle:edSignature="nhzUkZzVbbTXEQIMfPm7VlyZHV0ct8EZFSbFWFF+C3OtbBIVuofn9A1rfQ1Bxsa/EGHwjf89bWfBXOzDawRJAg=="/>
         </item>
     </channel>
 </rss>
