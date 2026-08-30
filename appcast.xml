@@ -3,6 +3,23 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.9</title>
+            <pubDate>Sun, 30 Aug 2026 10:32:07 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.9</link>
+            <sparkle:version>82</sparkle:version>
+            <sparkle:shortVersionString>0.19.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.9
+
+## 长语音分段写入入口
+
+- “长语音分段写入”现在也在牛马浮层的右键／三点菜单中，位于“普通语音自动结束”下方。
+- 可直接选择关闭、每 10 秒、每 15 秒或每 20 秒；长时间说话时会按所选间隔持续识别并写入。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.9/NiumaVoiceAssistant-macos.zip" length="11890750" type="application/octet-stream" sparkle:edSignature="8EVu3Uuj8ws6Ev2tK71mpdiLHrjLSvDW/Z4J2TbmAUCtPtmdjZtD9K5CfkE8xlNnbdz8TnrJciqO/7k05lMzBA=="/>
+        </item>
+        <item>
             <title>0.19.8</title>
             <pubDate>Sun, 30 Aug 2026 10:03:18 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.8</link>
@@ -47,25 +64,6 @@
 - 翻译窗口语音输入和快速 ToDo 也支持 `Esc` 取消；会议记录不受影响。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.7/NiumaVoiceAssistant-macos.zip" length="11882015" type="application/octet-stream" sparkle:edSignature="nhzUkZzVbbTXEQIMfPm7VlyZHV0ct8EZFSbFWFF+C3OtbBIVuofn9A1rfQ1Bxsa/EGHwjf89bWfBXOzDawRJAg=="/>
-        </item>
-        <item>
-            <title>0.19.5</title>
-            <pubDate>Sat, 29 Aug 2026 12:01:34 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.5</link>
-            <sparkle:version>78</sparkle:version>
-            <sparkle:shortVersionString>0.19.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.5
-
-## 自动判断与当前光标直写合并
-
-- “自动判断”现在会优先保留 Ghostty、cmux、iTerm2、VS Code、Codex 和 Chrome 的专属输入通道。
-- 对其他 App，如已在系统设置中允许牛马的“辅助功能”，自动判断会直接使用当前光标写入，不再需要手动选择“辅助功能 · 当前光标直写”。
-- 未授予辅助功能时，未知 App 仍会打开可编辑审核框，复制后由用户自行粘贴。
-- 系统 Terminal 始终维持审核复制，不会自动执行任何命令。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.5/NiumaVoiceAssistant-macos.zip" length="11880368" type="application/octet-stream" sparkle:edSignature="+ukyU9Pk8bZecTu16hS2cikjkJraOp84WRvipYbyJzE9nZkdSxXLIY3ACM/x3V77g+ImJxQvNcq3VE1mgfArDw=="/>
         </item>
     </channel>
 </rss>
