@@ -3,6 +3,25 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.12</title>
+            <pubDate>Sun, 30 Aug 2026 22:50:11 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.12</link>
+            <sparkle:version>85</sparkle:version>
+            <sparkle:shortVersionString>0.19.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.12
+
+## 长语音分段完整性修复
+
+- 修复 10/15/20 秒长语音切片在自动结束或手动停止恰好发生时，已经从录音缓冲移走但尚未进入识别队列的中间片段可能丢失的问题。
+- 分段音频现在会在录音回调内安全入队，上一段识别期间继续说的话会保留并按顺序处理。
+- 普通语音识别不再使用可能被 Whisper 复读的初始提示。
+- “！！”“...”等纯标点低信号结果会被丢弃，不再写入终端。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.12/NiumaVoiceAssistant-macos.zip" length="11894492" type="application/octet-stream" sparkle:edSignature="mJoA/qFaNhzdVQ7nCPDVEDl720Du8jCPE4ssIO+4t0UFlw2mA3KyIJWXFibD4/tlIkPxCSH+03ywsy4L3gwWBA=="/>
+        </item>
+        <item>
             <title>0.19.11</title>
             <pubDate>Sun, 30 Aug 2026 12:29:38 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.11</link>
@@ -36,23 +55,6 @@
 - 分段交接处增加续说缓冲，短暂停顿后重新开口不会被“普通语音自动结束”提前截断。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.10/NiumaVoiceAssistant-macos.zip" length="11891771" type="application/octet-stream" sparkle:edSignature="K+4eQ/oKhLE6JUXhGWtYhQFQdNwT7a7jcHfEVkIgMUaLOFIHn70hZ6BVEZSwkLHbLcPR6gBYHPCjqI982HjwCg=="/>
-        </item>
-        <item>
-            <title>0.19.9</title>
-            <pubDate>Sun, 30 Aug 2026 10:32:07 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.9</link>
-            <sparkle:version>82</sparkle:version>
-            <sparkle:shortVersionString>0.19.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.9
-
-## 长语音分段写入入口
-
-- “长语音分段写入”现在也在牛马浮层的右键／三点菜单中，位于“普通语音自动结束”下方。
-- 可直接选择关闭、每 10 秒、每 15 秒或每 20 秒；长时间说话时会按所选间隔持续识别并写入。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.9/NiumaVoiceAssistant-macos.zip" length="11890750" type="application/octet-stream" sparkle:edSignature="8EVu3Uuj8ws6Ev2tK71mpdiLHrjLSvDW/Z4J2TbmAUCtPtmdjZtD9K5CfkE8xlNnbdz8TnrJciqO/7k05lMzBA=="/>
         </item>
     </channel>
 </rss>
