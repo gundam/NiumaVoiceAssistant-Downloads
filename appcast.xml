@@ -3,6 +3,28 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.15</title>
+            <pubDate>Mon, 07 Sep 2026 18:21:28 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.15</link>
+            <sparkle:version>88</sparkle:version>
+            <sparkle:shortVersionString>0.19.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.15
+
+## 更自然的中文标点
+
+- 修复单个长中文识别片段只在末尾出现句号的问题。
+- 识别结果缺少标点时，会在“但是、所以、然后、另外、包括、请”等明显语义转折处补充逗号；已有标点和英文命令保持不变。
+
+## 复制后不再抢焦点
+
+- 在不支持直接写入的 App 中，文字自动复制后会恢复到开始录音前的 App 和原输入位置。
+- 审核框改为不抢键盘焦点的悬浮窗口；无需切回原 App，直接按 `⌘V` 即可粘贴。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.15/NiumaVoiceAssistant-macos.zip" length="11986566" type="application/octet-stream" sparkle:edSignature="3So5cdD/r4tExgp/J/v/dyuoJRrnWOaYS0bhwE9MkmbYGatcfF+oFHRg+TrH8MEzaEBoGxqFwq6NlBKREEkXBw=="/>
+        </item>
+        <item>
             <title>0.19.14</title>
             <pubDate>Sun, 06 Sep 2026 17:33:34 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.14</link>
@@ -48,25 +70,6 @@
 - 只有在审核复制框中明确点击“继续说”时，才会追加到该框；牛马按钮与全局快捷键会重新识别当前 App。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.13/NiumaVoiceAssistant-macos.zip" length="11981418" type="application/octet-stream" sparkle:edSignature="RjWhpFr/rnkC1ZAs/Ovy0FOnUYliKCOKJ8atNr4RIWTbez4QNtFjhAzmicl0/C/JA+G9DvGN9g9lfa7F56opCw=="/>
-        </item>
-        <item>
-            <title>0.19.12</title>
-            <pubDate>Sun, 30 Aug 2026 22:50:11 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.12</link>
-            <sparkle:version>85</sparkle:version>
-            <sparkle:shortVersionString>0.19.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.12
-
-## 长语音分段完整性修复
-
-- 修复 10/15/20 秒长语音切片在自动结束或手动停止恰好发生时，已经从录音缓冲移走但尚未进入识别队列的中间片段可能丢失的问题。
-- 分段音频现在会在录音回调内安全入队，上一段识别期间继续说的话会保留并按顺序处理。
-- 普通语音识别不再使用可能被 Whisper 复读的初始提示。
-- “！！”“...”等纯标点低信号结果会被丢弃，不再写入终端。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.12/NiumaVoiceAssistant-macos.zip" length="11894492" type="application/octet-stream" sparkle:edSignature="mJoA/qFaNhzdVQ7nCPDVEDl720Du8jCPE4ssIO+4t0UFlw2mA3KyIJWXFibD4/tlIkPxCSH+03ywsy4L3gwWBA=="/>
         </item>
     </channel>
 </rss>
