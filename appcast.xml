@@ -3,6 +3,23 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.16</title>
+            <pubDate>Wed, 09 Sep 2026 07:58:38 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.16</link>
+            <sparkle:version>89</sparkle:version>
+            <sparkle:shortVersionString>0.19.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.16
+
+## 切换音频设备后可直接录音
+
+- 修复耳机、蓝牙设备与 Mac 内置音频之间切换后，首次录音容易失败的问题。
+- 每次开始录音都会重新建立音频输入；如果 macOS 仍在完成设备切换，会自动短暂等待并重试，无需退出或重开应用。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.16/NiumaVoiceAssistant-macos.zip" length="11986986" type="application/octet-stream" sparkle:edSignature="WQo33vrf7d/kBEcDA1ol/2v/TmY3+ReUjFKCvOw8OJhc1gWnXikyLtMdi0Ql8k5kkcjhW4QAJijl/mjhnqyRAA=="/>
+        </item>
+        <item>
             <title>0.19.15</title>
             <pubDate>Mon, 07 Sep 2026 18:21:28 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.15</link>
@@ -46,30 +63,6 @@
 - 两套动画均按需下载，不进入 App 安装包；升级不会删除已经下载的形象资源。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.14/NiumaVoiceAssistant-macos.zip" length="11984866" type="application/octet-stream" sparkle:edSignature="NfSrVhmj9SaNkuHVfJLfxFD98Vosa9GmHt3G2Kgfz1sHbaPFhAaZ5s3+6y21rLLTeL0hT0kC5JcTlFuW9BNRAQ=="/>
-        </item>
-        <item>
-            <title>0.19.13</title>
-            <pubDate>Fri, 04 Sep 2026 14:20:27 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.13</link>
-            <sparkle:version>86</sparkle:version>
-            <sparkle:shortVersionString>0.19.13</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.13
-
-## 智能快速待办
-
-- `Control + Option + T` 现在可用自然语言新增、拆分、查询、更新进度或完成任务。
-- 使用本机或家庭 Ollama 整理任务标题、日期、优先级、分类与下一步；不确定的操作会先确认。
-- Apple 备忘录继续只追加事件，可撤销新增任务，并保留完整语音原话作为回溯依据。
-
-## 语音与输入修复
-
-- 修复一次大声说话后继续轻声说话被误判为静音、从而提前自动结束录音的问题。
-- 修复审核复制框仍开着时切换到支持直接输入的 App，下一次语音仍错误追加到旧复制框的问题。
-- 只有在审核复制框中明确点击“继续说”时，才会追加到该框；牛马按钮与全局快捷键会重新识别当前 App。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.13/NiumaVoiceAssistant-macos.zip" length="11981418" type="application/octet-stream" sparkle:edSignature="RjWhpFr/rnkC1ZAs/Ovy0FOnUYliKCOKJ8atNr4RIWTbez4QNtFjhAzmicl0/C/JA+G9DvGN9g9lfa7F56opCw=="/>
         </item>
     </channel>
 </rss>
