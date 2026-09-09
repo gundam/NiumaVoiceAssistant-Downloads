@@ -3,6 +3,24 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.17</title>
+            <pubDate>Wed, 09 Sep 2026 13:14:56 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.17</link>
+            <sparkle:version>90</sparkle:version>
+            <sparkle:shortVersionString>0.19.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.17
+
+## 复制审核自动清理
+
+- 在无法直接写入的 App 中，语音文字自动复制后，审核框默认会在 3 分钟后自动清空并隐藏。
+- 可在菜单栏或右键牛马菜单中选择 3 分钟、5 分钟，或关闭自动清空。
+- 开始一轮新的独立语音输入时，会自动清掉上一轮审核文字；只有点“继续说”才会保留并追加原内容。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.17/NiumaVoiceAssistant-macos.zip" length="11991599" type="application/octet-stream" sparkle:edSignature="TOdBI0NkAxGXh0tXkR6GcYPqXQQ0BGzhPhzVB2N2H19KXQhDunF5r/Gm0LyfO9hlHVpLuEXQ83NQSHrBFSHDDg=="/>
+        </item>
+        <item>
             <title>0.19.16</title>
             <pubDate>Wed, 09 Sep 2026 07:58:38 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.16</link>
@@ -40,29 +58,6 @@
 - 审核框改为不抢键盘焦点的悬浮窗口；无需切回原 App，直接按 `⌘V` 即可粘贴。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.15/NiumaVoiceAssistant-macos.zip" length="11986566" type="application/octet-stream" sparkle:edSignature="3So5cdD/r4tExgp/J/v/dyuoJRrnWOaYS0bhwE9MkmbYGatcfF+oFHRg+TrH8MEzaEBoGxqFwq6NlBKREEkXBw=="/>
-        </item>
-        <item>
-            <title>0.19.14</title>
-            <pubDate>Sun, 06 Sep 2026 17:33:34 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.14</link>
-            <sparkle:version>87</sparkle:version>
-            <sparkle:shortVersionString>0.19.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.14
-
-## 实时标点
-
-- 实时语音预览现在保留 Whisper 的多片段停顿信息，说话过程中即可逐步看到逗号和句号。
-- 最终识别仍会使用完整录音重新校正文字与标点。
-
-## 新增动态形象
-
-- 新增“凶凶彩色小狗”，包含待机、眨眼、聆听、思考和完成等动作。
-- 新增“小狗咬小人”互动动画，小狗会在工作时拉扯黑色小人的衣服，采用无受伤细节的卡通表现。
-- 两套动画均按需下载，不进入 App 安装包；升级不会删除已经下载的形象资源。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.14/NiumaVoiceAssistant-macos.zip" length="11984866" type="application/octet-stream" sparkle:edSignature="NfSrVhmj9SaNkuHVfJLfxFD98Vosa9GmHt3G2Kgfz1sHbaPFhAaZ5s3+6y21rLLTeL0hT0kC5JcTlFuW9BNRAQ=="/>
         </item>
     </channel>
 </rss>
