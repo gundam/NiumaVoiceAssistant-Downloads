@@ -3,6 +3,24 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.24</title>
+            <pubDate>Fri, 11 Sep 2026 20:47:09 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.24</link>
+            <sparkle:version>97</sparkle:version>
+            <sparkle:shortVersionString>0.19.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.24
+
+## macOS 26 会议面板按钮显示修复
+
+- 会议面板顶部的语言、透明度、模型、历史、复制和清空按钮改为应用自绘的高对比样式。
+- 在 macOS 26 的深色会议面板中，按钮会固定显示白色文字或图标；当前选中的会议语言显示为蓝色。
+- 不再依赖新版系统对小型圆角按钮的材质渲染，避免按钮可点击但文字几乎看不见的问题。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.24/NiumaVoiceAssistant-macos.zip" length="12057660" type="application/octet-stream" sparkle:edSignature="uGcY11JkNEFg+WDx+sR1pspBWzLa2PJ8rc25t/Ppe0tW92OYMkgZxbbUZHa/vwTxqNOk3wXHcY6xfCgiTfzdDQ=="/>
+        </item>
+        <item>
             <title>0.19.23</title>
             <pubDate>Fri, 11 Sep 2026 19:57:59 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.23</link>
@@ -42,29 +60,6 @@
 - 长会议的 AI 总结保留开头背景和最近讨论，并使用更合适的输出预算，减少本地 Ollama 的等待时间。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.22/NiumaVoiceAssistant-macos.zip" length="12055875" type="application/octet-stream" sparkle:edSignature="AtOhGfauUToULGHrIqehI4X5hReL2NsTEm8N+8ZLDN13PljMIB2nOWZAovbZ18o8gkh9Gl0RQFFOg4GemPKBDg=="/>
-        </item>
-        <item>
-            <title>0.19.21</title>
-            <pubDate>Fri, 11 Sep 2026 19:31:56 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.21</link>
-            <sparkle:version>94</sparkle:version>
-            <sparkle:shortVersionString>0.19.21</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.21
-
-## 在线形象目录
-
-- 新增“刷新在线形象”：安装此版本后，后续新增动画形象不必重新下载整个 App。
-- 在线形象目录会缓存到本机；离线时仍可使用已经加载或下载过的形象。
-- 每个动画包继续执行大小和 SHA-256 校验，校验失败不会安装。
-
-## 黑猫抓怪物
-
-- 新增黑猫与斗篷小怪物的 8 状态动画：待机、聆听、思考、飞扑追赶、抓住斗篷和完成互动。
-- 该形象约 1.5 MB，按需下载，不增加 App 安装包大小。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.21/NiumaVoiceAssistant-macos.zip" length="12048336" type="application/octet-stream" sparkle:edSignature="01F3hckUVxoIDyFPvWCqEKLcud70LpReaVexTj/0y3jIhTOccmb5G4UX2VWlDyGmLZr714RwHBi2sV7Wj4b2Bw=="/>
         </item>
     </channel>
 </rss>
