@@ -3,6 +3,29 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.22</title>
+            <pubDate>Fri, 11 Sep 2026 19:46:34 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.22</link>
+            <sparkle:version>95</sparkle:version>
+            <sparkle:shortVersionString>0.19.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.22
+
+## 会议面板修复
+
+- 会议进行中可直接在面板切换“英→中 / 中文”。
+- 切换后，已显示的英文翻译和中文记录各自保持原样，不会被错误重画。
+- 调低会议面板透明度时，背景会变透明，但暂停、结束、历史和语言切换按钮保持清晰可点击。
+
+## 会议历史更流畅
+
+- Apple 备忘录的会议历史改为后台读取和解析，窗口会先响应，不再因长会议正文卡住。
+- 长会议的 AI 总结保留开头背景和最近讨论，并使用更合适的输出预算，减少本地 Ollama 的等待时间。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.22/NiumaVoiceAssistant-macos.zip" length="12055875" type="application/octet-stream" sparkle:edSignature="AtOhGfauUToULGHrIqehI4X5hReL2NsTEm8N+8ZLDN13PljMIB2nOWZAovbZ18o8gkh9Gl0RQFFOg4GemPKBDg=="/>
+        </item>
+        <item>
             <title>0.19.21</title>
             <pubDate>Fri, 11 Sep 2026 19:31:56 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.21</link>
@@ -47,23 +70,6 @@
 - 思路图完全在本机生成与显示，不会上传会议内容。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.20/NiumaVoiceAssistant-macos.zip" length="12022731" type="application/octet-stream" sparkle:edSignature="Unf6mjxGH8xZlIzFBoPzc9i5DldCa36tXLgD+GIQO8+KLMOTlX2kv0eiGF5RlgRKSOh9jEfZIH9tEdyy8t3mDA=="/>
-        </item>
-        <item>
-            <title>0.19.19</title>
-            <pubDate>Fri, 11 Sep 2026 15:36:37 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.19</link>
-            <sparkle:version>92</sparkle:version>
-            <sparkle:shortVersionString>0.19.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.19
-
-## 会议面板快速切换
-
-- 会议面板顶部新增“英→中 / 中文”切换按钮，无需回到菜单栏。
-- 会议进行中也可切换；后续稳定片段按新模式处理，已显示和已保存的内容保持不变。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.19/NiumaVoiceAssistant-macos.zip" length="12004319" type="application/octet-stream" sparkle:edSignature="mk6fhqxhkaodclGYwErPYw/eKRZWhttiF0UWtcLk/Qqawg3QEqkXyL7mqnkHo6Y/2qqhRTMM9vxn7XXcBz1jDQ=="/>
         </item>
     </channel>
 </rss>
