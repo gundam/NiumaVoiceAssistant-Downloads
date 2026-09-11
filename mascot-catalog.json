@@ -1,0 +1,17 @@
+{
+  "formatVersion" : 1,
+  "mascots" : [
+    {
+      "id" : "shadow-cat-chase",
+      "nameZhHans" : "黑猫抓怪物",
+      "nameEn" : "Shadow Cat Chase",
+      "framePrefix" : "shadow-cat",
+      "package" : {
+        "version" : "mascot-assets-v4",
+        "archiveName" : "shadow-cat-chase-animation-v1.zip",
+        "expectedBytes" : 1468299,
+        "sha256" : "ffd4425a3ee2b27da0377b7ef84bc5ad4f31102e21dc54366a4778a1aae6c6be"
+      }
+    }
+  ]
+}
