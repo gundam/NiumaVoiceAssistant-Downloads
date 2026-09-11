@@ -3,6 +3,25 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.25</title>
+            <pubDate>Fri, 11 Sep 2026 21:40:57 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.25</link>
+            <sparkle:version>98</sparkle:version>
+            <sparkle:shortVersionString>0.19.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.25
+
+## 线上模型与会议历史增强
+
+- 新增兼容 OpenAI Chat Completions 的线上模型配置：可填写服务地址、模型名和 API 密钥，支持先测试连接再启用；密钥仅保存于本机钥匙串。
+- 线上模型可用于会议翻译、双向翻译和会议 AI 总结；线上请求失败时，会议翻译会自动回退本地翻译。
+- 会议历史页新增删除按钮（删除前会二次确认）、本次 AI 总结模型选择，以及标准、扩展、完整三档上下文长度。
+- 默认总结上下文从 6 千字提升至 1.6 万字；完整模式最多可使用 4 万字会议原文。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.25/NiumaVoiceAssistant-macos.zip" length="12101070" type="application/octet-stream" sparkle:edSignature="9MTvJk9WCzNmDz5rRS8JqFBgTHIfYYtUzCQ4ca3pkjCQ6ToQ1seQOhT1Z//pIeypkxPdeC1pihVUgujsizB0Dw=="/>
+        </item>
+        <item>
             <title>0.19.24</title>
             <pubDate>Fri, 11 Sep 2026 20:47:09 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.24</link>
@@ -37,29 +56,6 @@
 - 历史、复制、清空、暂停和结束按钮固定可见；系统左上角关闭按钮仍可作为停止会议的兜底入口。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.23/NiumaVoiceAssistant-macos.zip" length="12057111" type="application/octet-stream" sparkle:edSignature="Jv3u3evHiF7zsVLVhjvDBL/stptn24+XQ1Rfklc+FJQEip2+6b8IqPVbEn+zk7UiRAhE9nXIMSKadGdRSjCeDg=="/>
-        </item>
-        <item>
-            <title>0.19.22</title>
-            <pubDate>Fri, 11 Sep 2026 19:46:34 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.22</link>
-            <sparkle:version>95</sparkle:version>
-            <sparkle:shortVersionString>0.19.22</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.22
-
-## 会议面板修复
-
-- 会议进行中可直接在面板切换“英→中 / 中文”。
-- 切换后，已显示的英文翻译和中文记录各自保持原样，不会被错误重画。
-- 调低会议面板透明度时，背景会变透明，但暂停、结束、历史和语言切换按钮保持清晰可点击。
-
-## 会议历史更流畅
-
-- Apple 备忘录的会议历史改为后台读取和解析，窗口会先响应，不再因长会议正文卡住。
-- 长会议的 AI 总结保留开头背景和最近讨论，并使用更合适的输出预算，减少本地 Ollama 的等待时间。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.22/NiumaVoiceAssistant-macos.zip" length="12055875" type="application/octet-stream" sparkle:edSignature="AtOhGfauUToULGHrIqehI4X5hReL2NsTEm8N+8ZLDN13PljMIB2nOWZAovbZ18o8gkh9Gl0RQFFOg4GemPKBDg=="/>
         </item>
     </channel>
 </rss>
