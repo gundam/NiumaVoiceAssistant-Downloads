@@ -3,6 +3,29 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.20</title>
+            <pubDate>Fri, 11 Sep 2026 18:21:01 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.20</link>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>0.19.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.20
+
+## 更强的会议 AI 总结
+
+- AI 总结新增已确认决策、可执行待办、风险与待确认事项和层级思路图。
+- 待办可保留原文明确的负责人、截止时间和下一步；没有明确提到时会留空，避免猜测。
+- 本地总结提示词强化了“已确认决策”和“尚未决定提案”的区分。
+
+## 可视化思路图
+
+- 会议历史完成 AI 总结后可点击“思路图”，以主题、分支和关键点连线查看会议脉络。
+- 思路图完全在本机生成与显示，不会上传会议内容。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.20/NiumaVoiceAssistant-macos.zip" length="12022731" type="application/octet-stream" sparkle:edSignature="Unf6mjxGH8xZlIzFBoPzc9i5DldCa36tXLgD+GIQO8+KLMOTlX2kv0eiGF5RlgRKSOh9jEfZIH9tEdyy8t3mDA=="/>
+        </item>
+        <item>
             <title>0.19.19</title>
             <pubDate>Fri, 11 Sep 2026 15:36:37 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.19</link>
@@ -41,24 +64,6 @@
 - 可选择将最多 12 个标准术语作为 Whisper 提示，或只在最终文字中本地纠正，减少提示词误输出的风险。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.18/NiumaVoiceAssistant-macos.zip" length="12002081" type="application/octet-stream" sparkle:edSignature="+55cqqkWAmHKFATpA3vtdyzRgaE/8iOx5w0QUmukD8ShjVQdxP8aS6pYZs1L7TAiLgGgGapOp680zSjJQ7ycBQ=="/>
-        </item>
-        <item>
-            <title>0.19.17</title>
-            <pubDate>Wed, 09 Sep 2026 13:14:56 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.17</link>
-            <sparkle:version>90</sparkle:version>
-            <sparkle:shortVersionString>0.19.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.17
-
-## 复制审核自动清理
-
-- 在无法直接写入的 App 中，语音文字自动复制后，审核框默认会在 3 分钟后自动清空并隐藏。
-- 可在菜单栏或右键牛马菜单中选择 3 分钟、5 分钟，或关闭自动清空。
-- 开始一轮新的独立语音输入时，会自动清掉上一轮审核文字；只有点“继续说”才会保留并追加原内容。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.17/NiumaVoiceAssistant-macos.zip" length="11991599" type="application/octet-stream" sparkle:edSignature="TOdBI0NkAxGXh0tXkR6GcYPqXQQ0BGzhPhzVB2N2H19KXQhDunF5r/Gm0LyfO9hlHVpLuEXQ83NQSHrBFSHDDg=="/>
         </item>
     </channel>
 </rss>
