@@ -3,6 +3,24 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.28</title>
+            <pubDate>Sat, 12 Sep 2026 13:28:00 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.28</link>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>0.19.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.28
+
+## Skills 自动发现
+
+- 自动识别并加载本机的 Codex 用户 Skills、Codex 已安装 Skills，以及常见的 Claude Code Skills 目录。
+- 手动添加 Skills 文件夹时，选择器现在可以显示隐藏目录。
+- Skills 仍只会被索引；不会复制、修改或自动执行其中的文件。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.28/NiumaVoiceAssistant-macos.zip" length="12258585" type="application/octet-stream" sparkle:edSignature="cIvXW8cDZuUVk9VXcGpodg198EEIYtKXVtw8QPJiQZ8FYKWqmIddodUO2ulyEuCyrVcf0VHEkyOv/r1nQSbcAA=="/>
+        </item>
+        <item>
             <title>0.19.27</title>
             <pubDate>Sat, 12 Sep 2026 12:55:22 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.27</link>
@@ -40,25 +58,6 @@
 - MCP 工具调用必须在助手窗口中展示服务、工具名和参数，并由你确认后才执行；临时不可用的 MCP 服务不会影响普通 AI 对话。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.26/NiumaVoiceAssistant-macos.zip" length="12234820" type="application/octet-stream" sparkle:edSignature="cu6qkvOzKP66I8Ak6yRBmp09CcO7ayoRUKFrx/YvpUnx4BL+itPPuJ6ay4XiEZnVFVwZrb5z5jiJCwSkO0V0BA=="/>
-        </item>
-        <item>
-            <title>0.19.25</title>
-            <pubDate>Fri, 11 Sep 2026 21:40:57 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.25</link>
-            <sparkle:version>98</sparkle:version>
-            <sparkle:shortVersionString>0.19.25</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.25
-
-## 线上模型与会议历史增强
-
-- 新增兼容 OpenAI Chat Completions 的线上模型配置：可填写服务地址、模型名和 API 密钥，支持先测试连接再启用；密钥仅保存于本机钥匙串。
-- 线上模型可用于会议翻译、双向翻译和会议 AI 总结；线上请求失败时，会议翻译会自动回退本地翻译。
-- 会议历史页新增删除按钮（删除前会二次确认）、本次 AI 总结模型选择，以及标准、扩展、完整三档上下文长度。
-- 默认总结上下文从 6 千字提升至 1.6 万字；完整模式最多可使用 4 万字会议原文。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.25/NiumaVoiceAssistant-macos.zip" length="12101070" type="application/octet-stream" sparkle:edSignature="9MTvJk9WCzNmDz5rRS8JqFBgTHIfYYtUzCQ4ca3pkjCQ6ToQ1seQOhT1Z//pIeypkxPdeC1pihVUgujsizB0Dw=="/>
         </item>
     </channel>
 </rss>
