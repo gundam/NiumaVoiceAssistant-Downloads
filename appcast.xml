@@ -3,6 +3,25 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.26</title>
+            <pubDate>Sat, 12 Sep 2026 11:41:37 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.26</link>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>0.19.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.26
+
+## 全局 AI 助手、Skills 与 MCP
+
+- 新增“全局 AI 助手”：可在应用菜单或悬浮助手菜单中直接提问，选择自动、线上或 Ollama 模型。
+- 新增外部 Skills 直连：选择已有的 Codex、Claude Code 或其他 Skills 文件夹后，应用会直接按需读取其中的 `SKILL.md`；不会复制、迁移或执行其中脚本。
+- 新增 Streamable HTTP MCP 工具服务配置：支持发现工具、读取分页工具列表及调用工具；Bearer 密钥仅保存在本机钥匙串。
+- MCP 工具调用必须在助手窗口中展示服务、工具名和参数，并由你确认后才执行；临时不可用的 MCP 服务不会影响普通 AI 对话。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.26/NiumaVoiceAssistant-macos.zip" length="12234820" type="application/octet-stream" sparkle:edSignature="cu6qkvOzKP66I8Ak6yRBmp09CcO7ayoRUKFrx/YvpUnx4BL+itPPuJ6ay4XiEZnVFVwZrb5z5jiJCwSkO0V0BA=="/>
+        </item>
+        <item>
             <title>0.19.25</title>
             <pubDate>Fri, 11 Sep 2026 21:40:57 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.25</link>
@@ -38,24 +57,6 @@
 - 不再依赖新版系统对小型圆角按钮的材质渲染，避免按钮可点击但文字几乎看不见的问题。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.24/NiumaVoiceAssistant-macos.zip" length="12057660" type="application/octet-stream" sparkle:edSignature="uGcY11JkNEFg+WDx+sR1pspBWzLa2PJ8rc25t/Ppe0tW92OYMkgZxbbUZHa/vwTxqNOk3wXHcY6xfCgiTfzdDQ=="/>
-        </item>
-        <item>
-            <title>0.19.23</title>
-            <pubDate>Fri, 11 Sep 2026 19:57:59 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.23</link>
-            <sparkle:version>96</sparkle:version>
-            <sparkle:shortVersionString>0.19.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.23
-
-## macOS 26.6.2 会议面板显示修复
-
-- 会议面板顶部改为固定深色操作栏，背景透明度不会再影响操作按钮的显示或点击。
-- “英→中”和“中文”改为独立语言按钮，避免新版 macOS 分段控件显示不完整。
-- 历史、复制、清空、暂停和结束按钮固定可见；系统左上角关闭按钮仍可作为停止会议的兜底入口。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.23/NiumaVoiceAssistant-macos.zip" length="12057111" type="application/octet-stream" sparkle:edSignature="Jv3u3evHiF7zsVLVhjvDBL/stptn24+XQ1Rfklc+FJQEip2+6b8IqPVbEn+zk7UiRAhE9nXIMSKadGdRSjCeDg=="/>
         </item>
     </channel>
 </rss>
