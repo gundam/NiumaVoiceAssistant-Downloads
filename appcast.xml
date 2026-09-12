@@ -3,6 +3,26 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.27</title>
+            <pubDate>Sat, 12 Sep 2026 12:55:22 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.27</link>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>0.19.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.27
+
+## AI 助手稳定性与隐私修复
+
+- MCP 服务现在可新建、编辑、启用、停用和删除；“测试连接”不会再产生重复配置。
+- 自动模型模式默认使用本机 Ollama，避免在未明确选择线上模型时发送请求或 Skill 内容。
+- 修复 MCP 工具名称兼容性、多轮工具调用链路、SSE 事件响应解析和公网 HTTP 安全限制。
+- Skills 现在可按需读取直接引用的文本资料；脚本仍不会自动执行。
+- Skills 扫描移到后台执行，减少打开设置或发送请求时的界面卡顿。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.27/NiumaVoiceAssistant-macos.zip" length="12257056" type="application/octet-stream" sparkle:edSignature="qhPP37WfwNSyYIY3dbtK/XsOLvNfulHVKFL1dEXlueR+3LCAQ3fp3CdzBAdzZ3CVFngyF7Dg3ltzCdQ6N1qtDQ=="/>
+        </item>
+        <item>
             <title>0.19.26</title>
             <pubDate>Sat, 12 Sep 2026 11:41:37 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.26</link>
@@ -39,24 +59,6 @@
 - 默认总结上下文从 6 千字提升至 1.6 万字；完整模式最多可使用 4 万字会议原文。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.25/NiumaVoiceAssistant-macos.zip" length="12101070" type="application/octet-stream" sparkle:edSignature="9MTvJk9WCzNmDz5rRS8JqFBgTHIfYYtUzCQ4ca3pkjCQ6ToQ1seQOhT1Z//pIeypkxPdeC1pihVUgujsizB0Dw=="/>
-        </item>
-        <item>
-            <title>0.19.24</title>
-            <pubDate>Fri, 11 Sep 2026 20:47:09 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.24</link>
-            <sparkle:version>97</sparkle:version>
-            <sparkle:shortVersionString>0.19.24</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.24
-
-## macOS 26 会议面板按钮显示修复
-
-- 会议面板顶部的语言、透明度、模型、历史、复制和清空按钮改为应用自绘的高对比样式。
-- 在 macOS 26 的深色会议面板中，按钮会固定显示白色文字或图标；当前选中的会议语言显示为蓝色。
-- 不再依赖新版系统对小型圆角按钮的材质渲染，避免按钮可点击但文字几乎看不见的问题。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.24/NiumaVoiceAssistant-macos.zip" length="12057660" type="application/octet-stream" sparkle:edSignature="uGcY11JkNEFg+WDx+sR1pspBWzLa2PJ8rc25t/Ppe0tW92OYMkgZxbbUZHa/vwTxqNOk3wXHcY6xfCgiTfzdDQ=="/>
         </item>
     </channel>
 </rss>
