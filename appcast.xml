@@ -3,6 +3,25 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.31</title>
+            <pubDate>Sat, 10 Oct 2026 15:00:21 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.31</link>
+            <sparkle:version>104</sparkle:version>
+            <sparkle:shortVersionString>0.19.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.31
+
+- 自定义形象新增默认勾选的“去除边缘白色背景”选项，处理与图片边缘相连的白色或接近白色背景。
+- 保留内部白色细节和已有透明通道；需要保留背景时可在选择图片时取消勾选。原始导入图片仍保存在用户资料库中。
+- 已有自定义形象默认应用白底处理，无需重新下载资源。复杂或彩色背景建议使用透明 PNG。
+- 移除助手旁边的冒烟咖啡及其动画。
+
+验证：7 项形象相关测试通过，包括透明通道、内部白色细节和保留背景设置的持久化。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.31/NiumaVoiceAssistant-macos.zip" length="12270578" type="application/octet-stream" sparkle:edSignature="GqtbL6TgNnUiKdzg2incDkIx4smioi8eTmHx78Q1v5t19+tEdquaQ9SNonIytBSPVlue5iaudfrZRHmYo+SJAw=="/>
+        </item>
+        <item>
             <title>0.19.30</title>
             <pubDate>Sat, 10 Oct 2026 10:33:59 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.30</link>
@@ -39,24 +58,6 @@
 - 开启整理后，长语音会在录音结束时统一整理再写入，避免分段文字前后风格或顺序不一致。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.29/NiumaVoiceAssistant-macos.zip" length="12271094" type="application/octet-stream" sparkle:edSignature="zhzJ7RtNQIcCoXm919UPMTVbAeTZZbhuRzFLoeaWhfHiAk50QWIBTPBt55s75xTMEyDTnpv9DzUfWKJylLenDw=="/>
-        </item>
-        <item>
-            <title>0.19.28</title>
-            <pubDate>Sat, 12 Sep 2026 13:28:00 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.28</link>
-            <sparkle:version>101</sparkle:version>
-            <sparkle:shortVersionString>0.19.28</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.28
-
-## Skills 自动发现
-
-- 自动识别并加载本机的 Codex 用户 Skills、Codex 已安装 Skills，以及常见的 Claude Code Skills 目录。
-- 手动添加 Skills 文件夹时，选择器现在可以显示隐藏目录。
-- Skills 仍只会被索引；不会复制、修改或自动执行其中的文件。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.28/NiumaVoiceAssistant-macos.zip" length="12258585" type="application/octet-stream" sparkle:edSignature="cIvXW8cDZuUVk9VXcGpodg198EEIYtKXVtw8QPJiQZ8FYKWqmIddodUO2ulyEuCyrVcf0VHEkyOv/r1nQSbcAA=="/>
         </item>
     </channel>
 </rss>
