@@ -3,6 +3,25 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.30</title>
+            <pubDate>Sat, 10 Oct 2026 10:33:59 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.30</link>
+            <sparkle:version>103</sparkle:version>
+            <sparkle:shortVersionString>0.19.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.30
+
+- VS Code 在已有辅助功能授权时，Auto 和 VS Code 输入目标会使用录音前捕获的光标，尝试直接写入 Claude Code 等插件输入框。
+- 修复 VS Code 桥接命令无实际输入却被报告为成功的问题；现在需要确认编辑器收到文字。
+- 无辅助功能授权且插件输入框无法通过桥接写入时，自动复制文字并显示复制面板。
+- 更新内置 VS Code 扩展。无辅助功能授权的用户请在牛马菜单选择“安装 / 更新 VS Code 直写扩展”，然后在 VS Code 执行“Developer: Reload Window”。
+
+验证：52 项语音输入测试、4 项插件输入回归测试通过。插件输入框的实际直写效果仍需在目标电脑验证。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.30/NiumaVoiceAssistant-macos.zip" length="12271996" type="application/octet-stream" sparkle:edSignature="2zF3s5OVi4f+QTPaZwsteHdlV6P7R10FmTnKtFTxAgeYUJNxVAJ/qpXD4VNzml3bzsGPqDkcpE45vcqnXl8lCQ=="/>
+        </item>
+        <item>
             <title>0.19.29</title>
             <pubDate>Sat, 10 Oct 2026 09:05:18 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.29</link>
@@ -38,26 +57,6 @@
 - Skills 仍只会被索引；不会复制、修改或自动执行其中的文件。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.28/NiumaVoiceAssistant-macos.zip" length="12258585" type="application/octet-stream" sparkle:edSignature="cIvXW8cDZuUVk9VXcGpodg198EEIYtKXVtw8QPJiQZ8FYKWqmIddodUO2ulyEuCyrVcf0VHEkyOv/r1nQSbcAA=="/>
-        </item>
-        <item>
-            <title>0.19.27</title>
-            <pubDate>Sat, 12 Sep 2026 12:55:22 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.27</link>
-            <sparkle:version>100</sparkle:version>
-            <sparkle:shortVersionString>0.19.27</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.27
-
-## AI 助手稳定性与隐私修复
-
-- MCP 服务现在可新建、编辑、启用、停用和删除；“测试连接”不会再产生重复配置。
-- 自动模型模式默认使用本机 Ollama，避免在未明确选择线上模型时发送请求或 Skill 内容。
-- 修复 MCP 工具名称兼容性、多轮工具调用链路、SSE 事件响应解析和公网 HTTP 安全限制。
-- Skills 现在可按需读取直接引用的文本资料；脚本仍不会自动执行。
-- Skills 扫描移到后台执行，减少打开设置或发送请求时的界面卡顿。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.27/NiumaVoiceAssistant-macos.zip" length="12257056" type="application/octet-stream" sparkle:edSignature="qhPP37WfwNSyYIY3dbtK/XsOLvNfulHVKFL1dEXlueR+3LCAQ3fp3CdzBAdzZ3CVFngyF7Dg3ltzCdQ6N1qtDQ=="/>
         </item>
     </channel>
 </rss>
