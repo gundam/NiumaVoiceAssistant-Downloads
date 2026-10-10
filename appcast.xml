@@ -3,6 +3,27 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.32</title>
+            <pubDate>Sat, 10 Oct 2026 15:54:34 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.32</link>
+            <sparkle:version>105</sparkle:version>
+            <sparkle:shortVersionString>0.19.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.32
+
+- 牛马 VS Code 扩展改用 VS Code 自身的原生粘贴命令，可向当前 Claude Code 插件输入框写入文字，无需管理员或辅助功能权限，也不会自动发送。
+- 已在本机登录后的 Claude Code 当前输入框实测成功，未新建会话，未发送测试文字。
+- 普通编辑器可确认写入；插件网页输入框没有公开的接收确认接口，因此会保留识别原文，并提示检查输入框。文字已出现时请勿再次粘贴。
+- 临时使用剪贴板后会恢复原内容；如果用户期间复制了其他内容，不会覆盖新剪贴板。连续请求按顺序处理。
+
+更新后请在牛马菜单选择“安装 / 更新 VS Code 直写扩展”，在 VS Code 执行“Developer: Reload Window”，然后使用 Auto 或 VS Code 输入目标。
+
+验证：6 项插件输入回归测试、52 项语音输入测试通过。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.32/NiumaVoiceAssistant-macos.zip" length="12272509" type="application/octet-stream" sparkle:edSignature="RL3FfDNqRU6wbUDwWMU4V1aK09B9z3t4BcUrA/r8dlfV4Sn6rH/9sAjyW2k/CtWjKmXFDMQSC3somnfKVr/RCg=="/>
+        </item>
+        <item>
             <title>0.19.31</title>
             <pubDate>Sat, 10 Oct 2026 15:00:21 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.31</link>
@@ -39,25 +60,6 @@
 验证：52 项语音输入测试、4 项插件输入回归测试通过。插件输入框的实际直写效果仍需在目标电脑验证。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.30/NiumaVoiceAssistant-macos.zip" length="12271996" type="application/octet-stream" sparkle:edSignature="2zF3s5OVi4f+QTPaZwsteHdlV6P7R10FmTnKtFTxAgeYUJNxVAJ/qpXD4VNzml3bzsGPqDkcpE45vcqnXl8lCQ=="/>
-        </item>
-        <item>
-            <title>0.19.29</title>
-            <pubDate>Sat, 10 Oct 2026 09:05:18 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.29</link>
-            <sparkle:version>102</sparkle:version>
-            <sparkle:shortVersionString>0.19.29</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.29
-
-## AI 整理语音文字
-
-- 新增默认关闭的“AI 整理语音文字”开关，普通语音识别完成后可使用已配置的 Ollama 模型去除语气词、明显重复并优化标点和分段。
-- 整理时保留原意以及命令、代码、路径、URL、数字和专有名词，不做翻译、总结或扩写。
-- 本地 AI 不可用时自动使用原始识别文字，避免丢失输入；整理过程中按 Esc 可以取消且不写入。
-- 开启整理后，长语音会在录音结束时统一整理再写入，避免分段文字前后风格或顺序不一致。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.29/NiumaVoiceAssistant-macos.zip" length="12271094" type="application/octet-stream" sparkle:edSignature="zhzJ7RtNQIcCoXm919UPMTVbAeTZZbhuRzFLoeaWhfHiAk50QWIBTPBt55s75xTMEyDTnpv9DzUfWKJylLenDw=="/>
         </item>
     </channel>
 </rss>
