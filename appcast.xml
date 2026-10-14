@@ -3,6 +3,25 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.34</title>
+            <pubDate>Wed, 14 Oct 2026 13:37:14 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.34</link>
+            <sparkle:version>107</sparkle:version>
+            <sparkle:shortVersionString>0.19.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.34
+
+- 自定义形象会裁掉透明留白，在保留完整导入文件的同时，等比例适配显示区域。显示区域各边限制在 80–220 点，避免图案过小或浮层过大。
+- 浮层随自定义图片的横竖比例调整大小，录音、菜单和查看原文按钮同步布局。
+- 语音文字面板闲置 30 秒后自动收起；原文和剪贴板保持不变，可点击“查看原文”重新打开和复制。
+- 原文自动清空默认关闭；已有用户手动选择的自动清空设置仍保留。开始新录音或主动清空时会清理上一份原文。
+
+验证：62 项语音输入和形象相关测试通过，覆盖透明留白裁切、尺寸上下限、自动收起后重新打开以及剪贴板保持不变。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.34/NiumaVoiceAssistant-macos.zip" length="12277311" type="application/octet-stream" sparkle:edSignature="lKp7vPKkG2cDAkedRhOM5u3agX7LUEmOGU2wCIXlwnKEqwhctwpNMFObDmT2j455paGhlXdpk7gOsZSxEnLjDw=="/>
+        </item>
+        <item>
             <title>0.19.33</title>
             <pubDate>Sat, 10 Oct 2026 16:15:02 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.33</link>
@@ -41,25 +60,6 @@
 验证：6 项插件输入回归测试、52 项语音输入测试通过。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.32/NiumaVoiceAssistant-macos.zip" length="12272509" type="application/octet-stream" sparkle:edSignature="RL3FfDNqRU6wbUDwWMU4V1aK09B9z3t4BcUrA/r8dlfV4Sn6rH/9sAjyW2k/CtWjKmXFDMQSC3somnfKVr/RCg=="/>
-        </item>
-        <item>
-            <title>0.19.31</title>
-            <pubDate>Sat, 10 Oct 2026 15:00:21 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.31</link>
-            <sparkle:version>104</sparkle:version>
-            <sparkle:shortVersionString>0.19.31</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.31
-
-- 自定义形象新增默认勾选的“去除边缘白色背景”选项，处理与图片边缘相连的白色或接近白色背景。
-- 保留内部白色细节和已有透明通道；需要保留背景时可在选择图片时取消勾选。原始导入图片仍保存在用户资料库中。
-- 已有自定义形象默认应用白底处理，无需重新下载资源。复杂或彩色背景建议使用透明 PNG。
-- 移除助手旁边的冒烟咖啡及其动画。
-
-验证：7 项形象相关测试通过，包括透明通道、内部白色细节和保留背景设置的持久化。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.31/NiumaVoiceAssistant-macos.zip" length="12270578" type="application/octet-stream" sparkle:edSignature="GqtbL6TgNnUiKdzg2incDkIx4smioi8eTmHx78Q1v5t19+tEdquaQ9SNonIytBSPVlue5iaudfrZRHmYo+SJAw=="/>
         </item>
     </channel>
 </rss>
