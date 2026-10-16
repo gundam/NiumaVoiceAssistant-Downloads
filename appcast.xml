@@ -3,6 +3,25 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.37</title>
+            <pubDate>Sat, 17 Oct 2026 07:42:46 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.37</link>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>0.19.37</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.37
+
+- 将录音、识别与使用提示拆为独立浮层，不再受助手形象窗口宽度限制，修复缩小形象后提示被截断的问题。
+- 提示按文字自适应宽度，长文字自动换行；跟随形象移动，在屏幕边缘自动避让，顶部空间不足时显示在下方。
+- 提示不抢输入焦点，隐藏助手时一并隐藏；保留普通提示显示 5 秒、每 2 小时提醒及手动重新显示的规则。
+- 去除形象窗口顶部预留的提示区域，保持浮层紧凑。
+
+验证：9 项关联测试通过，覆盖独立提示宽度、长文字换行、屏幕边界、跟随移动、隐藏及不抢焦点；本地签名构建与安装校验通过。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.37/NiumaVoiceAssistant-macos.zip" length="12303701" type="application/octet-stream" sparkle:edSignature="g3438UfQGtC0RebusTUn6zlKYOdjBsQrANzvYPAZVUUivDx8ZsoOcFBRs+RcBWYiKSrnMW9uaasJAbBKErl3Ag=="/>
+        </item>
+        <item>
             <title>0.19.36</title>
             <pubDate>Fri, 16 Oct 2026 21:01:02 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.36</link>
@@ -40,25 +59,6 @@
 验证：11 项形象与浮层设置测试通过，覆盖尺寸持久化、边界、控件布局和隐藏按钮后的浮层缩小；本地签名构建验证通过。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.35/NiumaVoiceAssistant-macos.zip" length="12287281" type="application/octet-stream" sparkle:edSignature="QwQ9iRh8CjvhoXe7Zoi0hvr0uLsii6P0ie4wXYObsyjPJoejJvpQGGx908+mhXGPNm9voR7LB7ccKJY9BtR+CQ=="/>
-        </item>
-        <item>
-            <title>0.19.34</title>
-            <pubDate>Wed, 14 Oct 2026 13:37:14 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.34</link>
-            <sparkle:version>107</sparkle:version>
-            <sparkle:shortVersionString>0.19.34</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.34
-
-- 自定义形象会裁掉透明留白，在保留完整导入文件的同时，等比例适配显示区域。显示区域各边限制在 80–220 点，避免图案过小或浮层过大。
-- 浮层随自定义图片的横竖比例调整大小，录音、菜单和查看原文按钮同步布局。
-- 语音文字面板闲置 30 秒后自动收起；原文和剪贴板保持不变，可点击“查看原文”重新打开和复制。
-- 原文自动清空默认关闭；已有用户手动选择的自动清空设置仍保留。开始新录音或主动清空时会清理上一份原文。
-
-验证：62 项语音输入和形象相关测试通过，覆盖透明留白裁切、尺寸上下限、自动收起后重新打开以及剪贴板保持不变。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.34/NiumaVoiceAssistant-macos.zip" length="12277311" type="application/octet-stream" sparkle:edSignature="lKp7vPKkG2cDAkedRhOM5u3agX7LUEmOGU2wCIXlwnKEqwhctwpNMFObDmT2j455paGhlXdpk7gOsZSxEnLjDw=="/>
         </item>
     </channel>
 </rss>
