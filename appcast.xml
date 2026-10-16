@@ -3,6 +3,25 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.35</title>
+            <pubDate>Fri, 16 Oct 2026 20:40:47 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.35</link>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>0.19.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.35
+
+- 新增“浮层大小与按钮”设置，可从形象右键菜单或菜单栏打开。
+- 提供 80、110、140、180、220 点尺寸预设，支持输入 60–320 点自定义尺寸、滑块及步进微调；默认缩小为 140 点。
+- 录音按钮默认缩小为 28 点，可选择 20、24、28、32 点或隐藏。隐藏后仍可通过快捷键或右键菜单录音。
+- 设置即时生效、自动保存，适用于内置动画和自定义图片，图片保持比例。
+
+验证：11 项形象与浮层设置测试通过，覆盖尺寸持久化、边界、控件布局和隐藏按钮后的浮层缩小；本地签名构建验证通过。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.35/NiumaVoiceAssistant-macos.zip" length="12287281" type="application/octet-stream" sparkle:edSignature="QwQ9iRh8CjvhoXe7Zoi0hvr0uLsii6P0ie4wXYObsyjPJoejJvpQGGx908+mhXGPNm9voR7LB7ccKJY9BtR+CQ=="/>
+        </item>
+        <item>
             <title>0.19.34</title>
             <pubDate>Wed, 14 Oct 2026 13:37:14 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.34</link>
@@ -39,27 +58,6 @@
 验证：53 项语音输入测试通过，包括隐藏保留原文、分段追加、不修改剪贴板以及新录音清理。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.33/NiumaVoiceAssistant-macos.zip" length="12274418" type="application/octet-stream" sparkle:edSignature="J3QvZUycxLyPrTkhwcQiLnnd4L6AUHMULO22hFdWea6iviXdUgAcyXbACC6xPbDNc6eLT7uQdgYx51WZAfajCg=="/>
-        </item>
-        <item>
-            <title>0.19.32</title>
-            <pubDate>Sat, 10 Oct 2026 15:54:34 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.32</link>
-            <sparkle:version>105</sparkle:version>
-            <sparkle:shortVersionString>0.19.32</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.32
-
-- 牛马 VS Code 扩展改用 VS Code 自身的原生粘贴命令，可向当前 Claude Code 插件输入框写入文字，无需管理员或辅助功能权限，也不会自动发送。
-- 已在本机登录后的 Claude Code 当前输入框实测成功，未新建会话，未发送测试文字。
-- 普通编辑器可确认写入；插件网页输入框没有公开的接收确认接口，因此会保留识别原文，并提示检查输入框。文字已出现时请勿再次粘贴。
-- 临时使用剪贴板后会恢复原内容；如果用户期间复制了其他内容，不会覆盖新剪贴板。连续请求按顺序处理。
-
-更新后请在牛马菜单选择“安装 / 更新 VS Code 直写扩展”，在 VS Code 执行“Developer: Reload Window”，然后使用 Auto 或 VS Code 输入目标。
-
-验证：6 项插件输入回归测试、52 项语音输入测试通过。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.32/NiumaVoiceAssistant-macos.zip" length="12272509" type="application/octet-stream" sparkle:edSignature="RL3FfDNqRU6wbUDwWMU4V1aK09B9z3t4BcUrA/r8dlfV4Sn6rH/9sAjyW2k/CtWjKmXFDMQSC3somnfKVr/RCg=="/>
         </item>
     </channel>
 </rss>
