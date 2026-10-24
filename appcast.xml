@@ -3,6 +3,24 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.41</title>
+            <pubDate>Sat, 24 Oct 2026 16:40:27 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.41</link>
+            <sparkle:version>114</sparkle:version>
+            <sparkle:shortVersionString>0.19.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.41
+
+- 文字面板自动收起改为 3–10 秒逐秒预设，新默认值为 5 秒，不再弹出自定义时间输入框。已有保存时间继续保留，重新选择预设后更新；收起只隐藏面板，不清除文字。
+- 将文字卡片的紫蓝配色与轻量样式统一到模型、会议、翻译、助手及设置窗口，适配浅色与深色模式。系统文件选择器和权限提示仍使用系统界面。
+- 改善深色模式文字对比度、按钮宽度与禁用状态，避免长按钮标题挤压和辅助说明难以辨认。
+
+验证：18 项关联测试通过；最终对比度调整后 3 项主题测试复验通过；8 张深浅色窗口预览及本地签名构建验证通过。录音与真实会议流程仍建议升级后在实际环境确认。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.41/NiumaVoiceAssistant-macos.zip" length="12335564" type="application/octet-stream" sparkle:edSignature="Y3Gw1VmDR68y+XKCt13OMq4Ko6dVo+ZVIV7PM7dxD/ik0BU+tLRBsJbIeeD8UbR8lGvwpDXR+WzptV5wNrsGAA=="/>
+        </item>
+        <item>
             <title>0.19.40</title>
             <pubDate>Sat, 24 Oct 2026 08:20:06 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.40</link>
@@ -40,25 +58,6 @@
 验证：界面改版的 11 项关联测试、自定义时间的 8 项关联测试通过；已检查浅色与深色渲染预览，完成本地签名构建与安装校验。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.39/NiumaVoiceAssistant-macos.zip" length="12319281" type="application/octet-stream" sparkle:edSignature="O6B136DtNNRharXacb6Uul0a+57ENkUCAdieD4RCmwS9OTuYFWLe277HQDlc3unqk1wDXXFXeyUlIzFp0UpKAw=="/>
-        </item>
-        <item>
-            <title>0.19.38</title>
-            <pubDate>Fri, 23 Oct 2026 07:42:08 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.38</link>
-            <sparkle:version>111</sparkle:version>
-            <sparkle:shortVersionString>0.19.38</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.38
-
-- 不支持直接写入的 App 完成语音识别后，文字面板默认在当前屏幕居中显示，避免固定在右下角时被遮挡。
-- 面板顶部可选择“屏幕居中、右下角、左上角、靠近形象”，自动记住位置；不再为了展开文字面板而挪动助手形象。
-- 重新整理卡片界面、文字编辑区和底部操作，突出“复制全部”和回原 App 粘贴的提示；保留原 App 输入焦点，不自动发送内容。
-- 新增 10 秒、20 秒、30 秒自动收起选项，默认 30 秒，自动保存并即时重新计时。收起只隐藏面板，不清空文字，可重新打开继续查看。
-
-验证：位置记忆、多屏边界、控件布局、收起时长保存、不抢焦点、复制粘贴及收起后保留文字的关联测试通过；已检查界面渲染预览，并完成本地签名构建与安装校验。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.38/NiumaVoiceAssistant-macos.zip" length="12309483" type="application/octet-stream" sparkle:edSignature="jALecxm59abcPk6nNK9VBudBPFKeZ+6KrUQvSYcTM/K86UCvktclp4AqMDWuHYJyiQGZCXL3CUwELM7/IQv+Cw=="/>
         </item>
     </channel>
 </rss>
