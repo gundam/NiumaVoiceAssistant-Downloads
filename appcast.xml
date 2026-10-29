@@ -3,6 +3,23 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.19.44</title>
+            <pubDate>Thu, 29 Oct 2026 14:24:21 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.44</link>
+            <sparkle:version>117</sparkle:version>
+            <sparkle:shortVersionString>0.19.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.44
+
+- 模型列表新增 Qwen3-ASR 0.6B 与 1.7B MLX BF16 非量化模型，支持中文、英文和中英混说，本机 Apple Silicon GPU 识别。
+- Qwen 预览尝试间隔可选 0.3、0.5、0.7、1 秒；预览可以修订，停止录音后生成完整结果。该间隔不等于实际出字延迟，长句速度受设备与模型影响。
+- 模型权重与签名 MLX 引擎按需下载，不打入主安装包；下载完成后手动选择。默认仍为 Whisper，会议继续使用 Whisper。
+- Qwen 单次口述最长五分钟，暂不支持长语音分段写入。建议先比较实际录音，1.7B 的准确率与速度仍需在目标 Mac 上测试。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.44/NiumaVoiceAssistant-macos.zip" length="12480005" type="application/octet-stream" sparkle:edSignature="QVQWoo3srEjIUgJgrgQrgNuFVmKJMp2J555K6bsZFVkWBZKdVis/5muldjHCSAL7XQlXdt7FvW2Uz0XWoQ46Dg=="/>
+        </item>
+        <item>
             <title>0.19.43</title>
             <pubDate>Thu, 29 Oct 2026 08:49:57 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.43</link>
@@ -37,24 +54,6 @@
 系统要求：Apple Silicon Mac，macOS 15 或更高版本。安装包不包含识别模型；首次选择模型时需要联网下载。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.42/NiumaVoiceAssistant-macos.zip" length="31987692" type="application/octet-stream" sparkle:edSignature="0GFTAfJx3UAZ7fa19bUWo0EZOb4A4lq+UVy63flh9KAUj7l72sPvnjvqDW6wwh1lDvM5HuRyeQcc/8HVTwY2Ag=="/>
-        </item>
-        <item>
-            <title>0.19.41</title>
-            <pubDate>Sat, 24 Oct 2026 16:40:27 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.41</link>
-            <sparkle:version>114</sparkle:version>
-            <sparkle:shortVersionString>0.19.41</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.41
-
-- 文字面板自动收起改为 3–10 秒逐秒预设，新默认值为 5 秒，不再弹出自定义时间输入框。已有保存时间继续保留，重新选择预设后更新；收起只隐藏面板，不清除文字。
-- 将文字卡片的紫蓝配色与轻量样式统一到模型、会议、翻译、助手及设置窗口，适配浅色与深色模式。系统文件选择器和权限提示仍使用系统界面。
-- 改善深色模式文字对比度、按钮宽度与禁用状态，避免长按钮标题挤压和辅助说明难以辨认。
-
-验证：18 项关联测试通过；最终对比度调整后 3 项主题测试复验通过；8 张深浅色窗口预览及本地签名构建验证通过。录音与真实会议流程仍建议升级后在实际环境确认。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.41/NiumaVoiceAssistant-macos.zip" length="12335564" type="application/octet-stream" sparkle:edSignature="Y3Gw1VmDR68y+XKCt13OMq4Ko6dVo+ZVIV7PM7dxD/ik0BU+tLRBsJbIeeD8UbR8lGvwpDXR+WzptV5wNrsGAA=="/>
         </item>
     </channel>
 </rss>
