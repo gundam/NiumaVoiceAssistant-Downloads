@@ -3,6 +3,49 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.20.0</title>
+            <pubDate>Sun, 22 Nov 2026 17:40:02 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.0</link>
+            <sparkle:version>201</sparkle:version>
+            <sparkle:shortVersionString>0.20.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.20.0
+
+这是正式版渠道。本版新增「工作记忆」，并加入正式版/体验版的更新渠道切换；此前版本的用户可以在版本菜单里切换渠道。
+
+## 工作记忆（新）
+
+- 持续记录麦克风与系统声音，两路音源可分别开关；按约 2 分钟分段，长时间静音会提前封段。
+- 录音先写入本机，再由本机 Whisper 转写；默认每 30 分钟把这一批已封存片段交给本机 AI 汇总，也可选 60 分钟或手动“立即处理”。录音与处理互不阻塞，处理期间继续录音。
+- 可随时暂停/恢复采集。暂停只停录音，已保存的音频仍会继续转写，不会丢内容。
+- 崩溃退出、设备休眠/唤醒后有恢复与等待策略；处理失败的片段会保留音频并标明原因，可重试。
+- 音频默认最多占用 2 GB，达到上限前按片段状态自动清理，避免无限增长。
+- AI 汇总依赖本机 Ollama；AI 不可用时批次会等待，原文和音频不受影响。
+
+## 更新渠道
+
+- 顶部菜单新增“更新渠道”，可在正式版更新与体验版更新之间切换，版本信息会显示当前渠道。
+- 正式版用户不会收到体验版更新；想尝鲜需要自己切换，随时可以切回正式版。
+
+## 排障入口
+
+- 工作记忆面板新增“测试最近 30 分钟”：对最近半小时已录制、尚未处理的内容跑一次完整识别与汇总，并生成只含性能指标的 JSONL 日志（不含转写文字），便于反馈卡顿和速度问题。
+
+## 其他改进
+
+- 过滤 Whisper 在静音、噪声上产生的重复幻觉文本。
+- 调整录音状态提示与菜单项位置，状态更易读。
+
+## 已知限制
+
+- 单段音频仍以约 2 分钟为上限，静音约 3 秒会提前封段。
+- 识别速度取决于机器性能，长音频处理需要等待，不能承诺固定倍速。
+- 系统声音采集依赖屏幕录制权限，首次启用需要授权。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.0/NiumaVoiceAssistant-macos.zip" length="12247116" type="application/octet-stream" sparkle:edSignature="HNSKInlyiMWe/0Rw0Y1fwZa03W6IPms6nC4M/fGrFdVqXl6B5Alou2YWQf2FuAgaibCHxFB1lKzWuiM/LYXYAQ=="/>
+        </item>
+        <item>
             <title>0.19.44</title>
             <pubDate>Thu, 29 Oct 2026 14:24:21 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.44</link>
@@ -35,25 +78,6 @@
 - 保留 Whisper 默认、现有模型与正式更新通道。模型和引擎安装完成后仍需用户手动切换，不会自动改变当前选择。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.43/NiumaVoiceAssistant-macos.zip" length="12460147" type="application/octet-stream" sparkle:edSignature="x71MANiT04fVq5eAArF9GtUtzzGWLo06EFprG02+J/rdYyidpcugzRkqfeSsgTfmcZZ26NmmFLb7GLttvdGZDw=="/>
-        </item>
-        <item>
-            <title>0.19.42</title>
-            <pubDate>Thu, 29 Oct 2026 08:23:34 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.42</link>
-            <sparkle:version>115</sparkle:version>
-            <sparkle:shortVersionString>0.19.42</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.42
-
-- 新增本地实时语音识别模型列表：Zipformer 中英轻量版、Paraformer 中英轻量版、两者的 FP32 版，以及 Zipformer 中文 XLarge。流式模型为实验性选项，下载后由用户手动切换，不改变默认 Whisper 或已有模型选择；会议继续使用 Whisper。
-- 重新设计“识别模型与下载”窗口，展示大小、语言、使用建议、下载进度和当前使用状态。模型按需从固定的官方来源下载，完成文件大小与 SHA-256 校验后安装；可以取消或重试，下载不会自动启用模型。
-- 实时预览持续更新可修订的识别结果，停止后生成最终文字。识别在本机完成，模型独立保存在用户资料库，更新应用无需重新下载。
-- 保留原有 Whisper 模型、自定义模型和正式版自动更新。流式模式暂不支持长语音分段写入；更大模型的准确率和响应速度请按实际口述效果比较。
-
-系统要求：Apple Silicon Mac，macOS 15 或更高版本。安装包不包含识别模型；首次选择模型时需要联网下载。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.42/NiumaVoiceAssistant-macos.zip" length="31987692" type="application/octet-stream" sparkle:edSignature="0GFTAfJx3UAZ7fa19bUWo0EZOb4A4lq+UVy63flh9KAUj7l72sPvnjvqDW6wwh1lDvM5HuRyeQcc/8HVTwY2Ag=="/>
         </item>
     </channel>
 </rss>
