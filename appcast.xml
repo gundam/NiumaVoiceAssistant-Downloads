@@ -3,6 +3,32 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.20.1</title>
+            <pubDate>Sun, 22 Nov 2026 17:59:52 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.1</link>
+            <sparkle:version>202</sparkle:version>
+            <sparkle:shortVersionString>0.20.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.20.1
+
+本版把更新检查简化成两个入口，不再需要先切换渠道。
+
+## 更新
+
+- “检查更新”现在是一个子菜单，里面有两项：
+  - **检查正式版更新…**：只查正式版清单（appcast.xml）。
+  - **检查体验版更新…**：只查体验版清单（beta/appcast-beta.xml）。
+- 点哪项就查哪条线，当前版本信息里不再显示“正式版/体验版”字样。
+- 体验版通常比正式版版本号高；装了体验版之后，正式版检查不会再提示更新，除非正式版发布了更高版本。想回到正式版，等正式版发布更高版本后重新安装即可。
+
+## 其他
+
+- 其余功能与 v0.20.0 相同：工作记忆、30 分钟批处理、“测试最近 30 分钟”、本机 AI 汇总。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.1/NiumaVoiceAssistant-macos.zip" length="12246625" type="application/octet-stream" sparkle:edSignature="8aTKdpJg0ibBRmHrWe/Lkbf5sjZXRFA5FTex5k0YMBQhZCTz9MO9GXSTbdPcQOlDdcjWjQXoyyb20InuF1QEBQ=="/>
+        </item>
+        <item>
             <title>0.20.0</title>
             <pubDate>Sun, 22 Nov 2026 17:40:02 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.0</link>
@@ -61,23 +87,6 @@
 - Qwen 单次口述最长五分钟，暂不支持长语音分段写入。建议先比较实际录音，1.7B 的准确率与速度仍需在目标 Mac 上测试。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.44/NiumaVoiceAssistant-macos.zip" length="12480005" type="application/octet-stream" sparkle:edSignature="QVQWoo3srEjIUgJgrgQrgNuFVmKJMp2J555K6bsZFVkWBZKdVis/5muldjHCSAL7XQlXdt7FvW2Uz0XWoQ46Dg=="/>
-        </item>
-        <item>
-            <title>0.19.43</title>
-            <pubDate>Thu, 29 Oct 2026 08:49:57 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.43</link>
-            <sparkle:version>116</sparkle:version>
-            <sparkle:shortVersionString>0.19.43</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.43
-
-- 精简主安装包：流式模型的识别引擎改为按需下载，只用 Whisper 的用户无需下载该组件。应用启动不依赖引擎文件。
-- 首次下载流式模型时，一并安装共享识别引擎；已下载模型的用户可直接点击“安装识别引擎”，无需重下模型。后续各模型共用引擎，下载后可离线识别。
-- 引擎安装包只包含 Apple Silicon 版本，使用 Developer ID 签名。下载后验证固定 SHA-256、文件大小和签名，再安装到用户资料库；不修改应用安装目录或系统权限。
-- 保留 Whisper 默认、现有模型与正式更新通道。模型和引擎安装完成后仍需用户手动切换，不会自动改变当前选择。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.43/NiumaVoiceAssistant-macos.zip" length="12460147" type="application/octet-stream" sparkle:edSignature="x71MANiT04fVq5eAArF9GtUtzzGWLo06EFprG02+J/rdYyidpcugzRkqfeSsgTfmcZZ26NmmFLb7GLttvdGZDw=="/>
         </item>
     </channel>
 </rss>
