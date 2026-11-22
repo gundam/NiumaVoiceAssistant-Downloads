@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Ghostty Voice</title>
+        <item>
+            <title>0.20.2-beta.1</title>
+            <pubDate>Sun, 22 Nov 2026 18:01:18 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.2-beta.1</link>
+            <sparkle:version>203</sparkle:version>
+            <sparkle:shortVersionString>0.20.2-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 体验版 v0.20.2-beta.1（Build 203）
+
+这是体验版，版本号高于当前正式版 v0.20.1；正式版用户只有在“检查更新 → 检查体验版更新…”时才会看到它。
+
+## 本版内容
+
+- 与 v0.20.1 相同：更新检查拆成“检查正式版更新…”和“检查体验版更新…”两项，不再需要切换渠道。
+- 工作记忆：持续记录麦克风/系统声音，约 2 分钟分段，默认每 30 分钟批处理汇总；可暂停；“测试最近 30 分钟”可复跑并导出性能日志（不含转写文字）。
+
+## 已知限制
+
+- 装了体验版后，正式版检查不会提示更新，直到正式版发布更高版本。
+- 体验版可能不稳定，工作记忆与 AI 汇总仍在验证。
+- 系统声音采集需要屏幕录制权限；本机 AI 汇总需要本机 Ollama。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.2-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12246644" type="application/octet-stream" sparkle:edSignature="Ec/7xfMJMOfQxLHQy+5Vc6kXwdk4LeOC6vrFGrC9NtqhzisQq+w1Ve8ytHUxb+vSel4ca/CQdhYmHe/DI/hdCw=="/>
+        </item>
+    </channel>
+</rss>
