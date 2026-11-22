@@ -3,6 +3,39 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.20.5-beta.1</title>
+            <pubDate>Sun, 22 Nov 2026 21:11:36 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.5-beta.1</link>
+            <sparkle:version>209</sparkle:version>
+            <sparkle:shortVersionString>0.20.5-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 体验版 v0.20.5-beta.1（Build 209）
+
+只发体验版；正式版仍是 v0.20.2。
+
+## 修复：批次 AI 总是失败
+
+- 根因：本机模型返回汇总 JSON 时把 `sourceIDs` 写成 `sourceIds`（小写 d），严格的 JSON 解析不认，导致整批被判定“模型输出或来源覆盖校验未通过”。
+- 现在 `sourceIDs`、`sourceIds`、`source_ids` 三种写法都接受；批次汇总不会再因为大小写失败。
+
+## 新增自检按钮（工作记忆面板）
+
+- **AI 自检**：连接 127.0.0.1:11434，检查所选模型是否存在，并做一次真实生成，显示耗时、模型返回和结论。
+- **麦克风自检**：检查系统麦克风权限，录音 2.5 秒只测峰值不保存，显示输入设备、采样率、声道、峰值 dBFS 和结论。工作记忆正在采集时会提示先暂停。
+
+## 列表
+
+- 新增 **音频时长**、**转写耗时** 列（秒），新增 **AI 整理** 列（显示逐段整理或所属批次状态，悬停看摘要）。
+- 片段详情新增“所属批次：状态 + 摘要”。
+
+## 说明
+
+- 体验版可能不稳定；本机 AI 汇总依赖 Ollama 与所选模型。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.5-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12276611" type="application/octet-stream" sparkle:edSignature="pgXqJiNmd99SLkgKl1GhiaSZxksygV0b0IJRLRMTYf4tIKCcDxKIKszvua8u15qp7RntoUSjLlbVhz67kxnXAQ=="/>
+        </item>
+        <item>
             <title>0.20.4-beta.1</title>
             <pubDate>Sun, 22 Nov 2026 20:48:18 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.4-beta.1</link>
@@ -58,31 +91,6 @@
 - 体验版可能不稳定；本机 AI 汇总仍依赖 Ollama。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.3-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12257785" type="application/octet-stream" sparkle:edSignature="KbjDHwUNKViltEgHJR6LjAy5rOnmV25cUQ2T6S3L7O1PayYwNWdf2x2IxFE83hcu1ruIZqMs2O7kRW8MQ7dLCA=="/>
-        </item>
-        <item>
-            <title>0.20.2-beta.1</title>
-            <pubDate>Sun, 22 Nov 2026 18:01:18 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.2-beta.1</link>
-            <sparkle:version>203</sparkle:version>
-            <sparkle:shortVersionString>0.20.2-beta.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 体验版 v0.20.2-beta.1（Build 203）
-
-这是体验版，版本号高于当前正式版 v0.20.1；正式版用户只有在“检查更新 → 检查体验版更新…”时才会看到它。
-
-## 本版内容
-
-- 与 v0.20.1 相同：更新检查拆成“检查正式版更新…”和“检查体验版更新…”两项，不再需要切换渠道。
-- 工作记忆：持续记录麦克风/系统声音，约 2 分钟分段，默认每 30 分钟批处理汇总；可暂停；“测试最近 30 分钟”可复跑并导出性能日志（不含转写文字）。
-
-## 已知限制
-
-- 装了体验版后，正式版检查不会提示更新，直到正式版发布更高版本。
-- 体验版可能不稳定，工作记忆与 AI 汇总仍在验证。
-- 系统声音采集需要屏幕录制权限；本机 AI 汇总需要本机 Ollama。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.2-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12246644" type="application/octet-stream" sparkle:edSignature="Ec/7xfMJMOfQxLHQy+5Vc6kXwdk4LeOC6vrFGrC9NtqhzisQq+w1Ve8ytHUxb+vSel4ca/CQdhYmHe/DI/hdCw=="/>
         </item>
     </channel>
 </rss>
