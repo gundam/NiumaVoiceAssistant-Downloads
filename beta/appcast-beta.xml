@@ -3,6 +3,37 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.20.7-beta.1</title>
+            <pubDate>Sun, 22 Nov 2026 23:14:42 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.7-beta.1</link>
+            <sparkle:version>211</sparkle:version>
+            <sparkle:shortVersionString>0.20.7-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 体验版 v0.20.7-beta.1（Build 211）
+
+只发体验版；正式版仍是 v0.20.2。
+
+## AI 汇总现在真的会出结果
+
+- 根因：本机模型汇总时返回的是 `["摘要文本"]`（字符串数组），而代码只认 `[{"text": "..."}]`，解析失败后走了“按原文条目合并”的兜底，看起来像没生成。
+- 现在兼容三种返回：对象数组、字符串数组、纯文本；过长会截断而不是整批失败。实测同一批次已能生成模型写的摘要（“待确认：是否执行拨打电话”），不再显示“模型汇总失败”。
+
+## 生成过程直接看得见
+
+- 查看批次窗口新增状态行和转圈：`本机 AI 正在汇总…已用 1 分 30 秒`，每秒刷新；完成后显示 `AI 汇总完成 · 用时 3 分 0 秒`，摘要自动出现在下面。
+- “重新生成 AI 汇总”按钮：已有摘要时显示“重新生成”，没有时显示“开始 AI 汇总”；生成中按钮禁用。
+- 片段详情点“重新生成 AI 整理”会直接打开批次窗口，不再只弹一句“后台会跑”，进度和结果都在眼前。
+
+## 其他
+
+- 兼容模型把 `sourceIDs` 写成 `sourceIds`。
+- 引文校验失败只丢引用、漏来源时按原文条目兜底、JSON 代码块自动提取。
+- 面板有“AI 自检”“麦克风自检”。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.7-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12283985" type="application/octet-stream" sparkle:edSignature="/3eTg7uMjLGcdGTuImGozCfX0NTfnizUJBnJ6mhA8ZzRzgajoY9NVa+ZUzDxzb0KqiGOj99kqyRhe9uciBkJDQ=="/>
+        </item>
+        <item>
             <title>0.20.6-beta.1</title>
             <pubDate>Sun, 22 Nov 2026 21:30:12 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.6-beta.1</link>
@@ -62,37 +93,6 @@
 - 体验版可能不稳定；本机 AI 汇总依赖 Ollama 与所选模型。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.5-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12276611" type="application/octet-stream" sparkle:edSignature="pgXqJiNmd99SLkgKl1GhiaSZxksygV0b0IJRLRMTYf4tIKCcDxKIKszvua8u15qp7RntoUSjLlbVhz67kxnXAQ=="/>
-        </item>
-        <item>
-            <title>0.20.4-beta.1</title>
-            <pubDate>Sun, 22 Nov 2026 20:48:18 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.4-beta.1</link>
-            <sparkle:version>207</sparkle:version>
-            <sparkle:shortVersionString>0.20.4-beta.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 体验版 v0.20.4-beta.1（Build 207）
-
-这次只发体验版，正式版保持 v0.20.2 不变。体验版版本号更高，在“检查更新 → 检查体验版更新…”里能看到。
-
-## 工作记忆列表
-
-- 新增 **音频时长** 列：每段多少秒，精确到 0.1 秒。
-- 新增 **转写耗时** 列：该段 Whisper 转写用了多少秒，多次尝试累计。
-- 新增 **AI 整理** 列：显示逐段整理，或所属批次的状态（批次汇总中/已汇总/失败），悬停可看批次摘要全文。
-- 片段详情新增“所属批次：状态 + 摘要”。
-
-## 批次
-
-- 详情继续保留片段数、音源分布、音频起止与跨度、总时长、体积、逐段转写耗时、汇总模型与引用条数。
-- 批次汇总的容错：引文校验失败只丢引用、漏来源时按原文条目合并、JSON 带代码块时自动提取。
-
-## 说明
-
-- 旧片段未单独计时的显示 “—”，重试或进入新批次时补齐。
-- 体验版可能不稳定；本机 AI 汇总依赖 Ollama。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.4-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12262090" type="application/octet-stream" sparkle:edSignature="kUJeJ+rQ4I5Nu53lgbDDjtOvShxSO8l9PcaxYMob2VYdRyR1vaLywPZVkZG3bDwEw/iS9OrjNJiyxhY2r+YMBg=="/>
         </item>
     </channel>
 </rss>
