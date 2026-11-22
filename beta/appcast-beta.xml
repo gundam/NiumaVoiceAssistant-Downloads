@@ -3,6 +3,32 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.20.3-beta.1</title>
+            <pubDate>Sun, 22 Nov 2026 18:57:30 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.3-beta.1</link>
+            <sparkle:version>205</sparkle:version>
+            <sparkle:shortVersionString>0.20.3-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 体验版 v0.20.3-beta.1（Build 205）
+
+体验版版本号高于正式版 v0.20.2；正式版用户只有在“帮助与更新 → 检查更新 → 检查体验版更新…”时才会看到它。
+
+## 与 v0.20.2 相同的改动
+
+- 批次详情大幅加细节：片段数量与音源分布、音频起止时间、时长跨度、总时长与平均每段时长、估算体积、逐段转写耗时、AI 汇总耗时、汇总模型与引用条数。
+- 逐段明细：每段起止时间、音频时长、体积、采样率、状态、转写耗时与尝试次数、AI 整理状态与结果、识别原文、失败原因。
+- 批次汇总更抗错：个别引文无法逐字校验、模型漏来源编号、JSON 被包在代码块里时，不再整批失败；必要时用原文条目合并并注明。
+- 过滤 `Undertexter av Amara.org-gemenskapen`、`Altyazı M.K.` 这类字幕署名幻觉。
+
+## 已知限制
+
+- 旧片段没有单独记录时长和转写耗时，进入新批次或重试时会按文件大小补齐。
+- 体验版可能不稳定；本机 AI 汇总仍依赖 Ollama。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.3-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12257785" type="application/octet-stream" sparkle:edSignature="KbjDHwUNKViltEgHJR6LjAy5rOnmV25cUQ2T6S3L7O1PayYwNWdf2x2IxFE83hcu1ruIZqMs2O7kRW8MQ7dLCA=="/>
+        </item>
+        <item>
             <title>0.20.2-beta.1</title>
             <pubDate>Sun, 22 Nov 2026 18:01:18 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.2-beta.1</link>
