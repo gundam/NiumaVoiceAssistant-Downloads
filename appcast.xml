@@ -3,6 +3,52 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.20.2</title>
+            <pubDate>Sun, 22 Nov 2026 18:56:04 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.2</link>
+            <sparkle:version>204</sparkle:version>
+            <sparkle:shortVersionString>0.20.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.20.2
+
+工作记忆的批次详情和片段详情补全了排查与回看需要的信息。
+
+## 批次详情（查看批次）
+
+现在顶部会写清：
+
+- 片段数量：共多少段，其中已识别、未识别到语音、失败各多少段；
+- 音频范围：从第一段的录制时间到最后一段的结束时间；
+- 音频总长：合多少分秒，并附精确秒数；
+- 转写耗时：逐段转写耗时合计、批次转写阶段总耗时、平均每段耗时；
+- AI 汇总耗时、汇总模型、输入原文段数、事项条数与带引用条数；
+- 每段的明细：序号、起止时间、音频时长（分秒和精确秒）、估算体积、采样率、音源、处理状态、转写耗时与尝试次数、AI 整理状态与整理结果、识别原文、失败原因。
+
+## 片段详情（查看片段详情）
+
+- 新增录制时间、音频时长、转写耗时（含尝试次数）、完成时间。
+
+## 批次汇总失败的处理
+
+- 以前模型改写引文、覆盖不全或把 JSON 包在代码块里时，整批摘要会被丢弃并显示“处理失败”。现在：
+  - 个别无法逐字校验的引文只丢弃引用本身，不整批失败；
+  - 模型汇总漏掉来源编号时，改用原文条目合并并注明，不再丢摘要；
+  - 模型把 JSON 包在 ``` 代码块或加了说明文字时，会先提取 JSON 再解析。
+- 日报仍保持严格校验。
+
+## 转写清理
+
+- 新增对字幕署名类幻觉的过滤：`Undertexter av Amara.org-gemenskapen`、`Altyazı M.K.` 这类 Whisper 在音乐/静音上生成的片尾字幕，不再作为普通原文显示。
+
+## 说明
+
+- 旧版本录下的片段没有单独记录时长和转写耗时，详情里会显示为缺省；本版之后新录的片段都会有。
+- 转写耗时是本机 Whisper 的实际墙钟时间，会随机器性能和模型不同而变化。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.2/NiumaVoiceAssistant-macos.zip" length="12257723" type="application/octet-stream" sparkle:edSignature="n7HuE13Ev7u2khF7w9qyhhr2ZmbzBzRdbL2hpXGBidHEKiIEtt8eG9528wLgaNeC5CBbMpByXBb9mQsk8FjqAA=="/>
+        </item>
+        <item>
             <title>0.20.1</title>
             <pubDate>Sun, 22 Nov 2026 17:59:52 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.1</link>
@@ -70,23 +116,6 @@
 - 系统声音采集依赖屏幕录制权限，首次启用需要授权。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.0/NiumaVoiceAssistant-macos.zip" length="12247116" type="application/octet-stream" sparkle:edSignature="HNSKInlyiMWe/0Rw0Y1fwZa03W6IPms6nC4M/fGrFdVqXl6B5Alou2YWQf2FuAgaibCHxFB1lKzWuiM/LYXYAQ=="/>
-        </item>
-        <item>
-            <title>0.19.44</title>
-            <pubDate>Thu, 29 Oct 2026 14:24:21 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.19.44</link>
-            <sparkle:version>117</sparkle:version>
-            <sparkle:shortVersionString>0.19.44</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 v0.19.44
-
-- 模型列表新增 Qwen3-ASR 0.6B 与 1.7B MLX BF16 非量化模型，支持中文、英文和中英混说，本机 Apple Silicon GPU 识别。
-- Qwen 预览尝试间隔可选 0.3、0.5、0.7、1 秒；预览可以修订，停止录音后生成完整结果。该间隔不等于实际出字延迟，长句速度受设备与模型影响。
-- 模型权重与签名 MLX 引擎按需下载，不打入主安装包；下载完成后手动选择。默认仍为 Whisper，会议继续使用 Whisper。
-- Qwen 单次口述最长五分钟，暂不支持长语音分段写入。建议先比较实际录音，1.7B 的准确率与速度仍需在目标 Mac 上测试。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.19.44/NiumaVoiceAssistant-macos.zip" length="12480005" type="application/octet-stream" sparkle:edSignature="QVQWoo3srEjIUgJgrgQrgNuFVmKJMp2J555K6bsZFVkWBZKdVis/5muldjHCSAL7XQlXdt7FvW2Uz0XWoQ46Dg=="/>
         </item>
     </channel>
 </rss>
