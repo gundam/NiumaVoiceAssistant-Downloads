@@ -3,6 +3,39 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.20.13-beta.1</title>
+            <pubDate>Sat, 28 Nov 2026 10:08:28 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.13-beta.1</link>
+            <sparkle:version>218</sparkle:version>
+            <sparkle:shortVersionString>0.20.13-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手体验版 v0.20.13-beta.1（Build 218）
+
+本次仅发布体验版，不改变正式版更新渠道。上一版（0.20.12）的统一模型与工作记忆日报已包含在本版中。
+
+## 工作记忆不再固定本机
+
+- 工作记忆的整理、问答和日报，改为使用与其它 AI 功能相同的 Ollama 地址：默认仍是本机 `127.0.0.1`；在「语音识别与家庭服务器」里填写家庭服务器地址后，所有文字任务统一走那台。
+- 修改 Ollama 地址会取消在途 AI 请求，并立即生效，不需要重启 App。
+- 「AI 使用模型」设置窗口和自检会显示实际的 Ollama 地址，不再声称工作记忆固定本机。
+
+## 取消等待模型释放
+
+- 不再查询 `/api/ps`、不再等待模型卸载，也不会再出现「等待本机 AI 释放」或要求手动「恢复本机 AI」。
+- 工作记忆仍按顺序一次处理一段，但请求结束就继续下一段；超时或失败按普通失败处理，稍后自动重试。
+- 不再强制模型卸载，连续整理时模型可以留在内存里，后续请求更快。
+- 旧版本保存的等待状态会在加载时自动清除并恢复为可重试。
+
+## 使用提示
+
+- 若 Ollama 本身卡住，单次请求会在超时后标记失败并自动重试，不会拖住整个工作记忆。
+- 选择线上模型时，相关文字会发送到你确认过的服务；使用家庭服务器时文字只发送到该局域网地址。
+- 体验版用于验证新功能，实际识别与整理效果因音频、模型和设备而异。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.13-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12446997" type="application/octet-stream" sparkle:edSignature="OWAAApffkHZfZhVQTZpZ+8iczH9PikSZrIoDrRjHFnrYWAvPSb1NFWrRn8Ay0fjw9BMhK8+j2L2c6H26Pt/QBw=="/>
+        </item>
+        <item>
             <title>0.20.12-beta.1</title>
             <pubDate>Sat, 28 Nov 2026 08:58:56 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.12-beta.1</link>
@@ -72,37 +105,6 @@
 - 体验版用于验证新功能，实际识别与整理效果因音频、模型和设备而异。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.10-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12352310" type="application/octet-stream" sparkle:edSignature="f6o2jIv9W4yoETpwJ9Z224YnLP0VF4x3YlOcBPbadiJgBtxc9wqQn/y9XhiVPqlPfpDFOFeOpXqmOPBgH1BqAg=="/>
-        </item>
-        <item>
-            <title>0.20.9-beta.1</title>
-            <pubDate>Fri, 27 Nov 2026 13:10:38 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.9-beta.1</link>
-            <sparkle:version>213</sparkle:version>
-            <sparkle:shortVersionString>0.20.9-beta.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手体验版 v0.20.9-beta.1（Build 213）
-
-本次仅发布体验版，不改变正式版更新渠道。
-
-## 工作记忆
-
-- 修复单段 AI 整理绕过队列的问题，整理会与其他工作记忆推理任务有序协调。
-- 修复模型状态检查与 AI 整理并发时可能出现“请求仍在进行”的问题；资源暂时不可用时等待恢复，避免阻塞后续转写。
-- 加强资源释放、任务取消与片段删除时的保护，降低重复整理和结果错写的风险。
-
-## 语音输入文字整理
-
-- “AI 整理提示词”页面新增样例与结果区，可直接用尚未保存的提示词测试效果。
-- 更新默认规则：按说话顺序保留内容，明确列举时逐条换行，列表后的内容继续保留，不额外添加总结。
-- 已自定义的提示词不会被新默认规则覆盖。
-
-## 使用提示
-
-- 工作记忆本机 AI 整理需要可用的 Ollama 模型；提示词测试使用已配置的 Ollama 服务。
-- 体验版用于验证新功能，实际识别与整理效果因音频、模型和设备而异。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.9-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12315023" type="application/octet-stream" sparkle:edSignature="b6EuJFiN/shrwUNMl3/KNqhQeM4HQ/jixYxwi3ZAsjQzO3eM4/LUUbbNvxhtA2iMTwx+oyVebE2jCFBoKxMuAw=="/>
         </item>
     </channel>
 </rss>
