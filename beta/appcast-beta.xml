@@ -3,6 +3,46 @@
     <channel>
         <title>Ghostty Voice</title>
         <item>
+            <title>0.20.12-beta.1</title>
+            <pubDate>Sat, 28 Nov 2026 08:58:56 +0800</pubDate>
+            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.12-beta.1</link>
+            <sparkle:version>216</sparkle:version>
+            <sparkle:shortVersionString>0.20.12-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手体验版 v0.20.12-beta.1（Build 216）
+
+本次仅发布体验版，不改变正式版更新渠道。上一版（0.20.11）的工作记忆中文诊断功能已包含在本版中。
+
+## 一个「AI 使用模型」，统一所有文字任务
+
+- 新增两个入口：菜单「语音与输入 → 语音识别模型…」和「AI 与模型 → AI 使用模型…」。
+- 「AI 使用模型」统一管理口述润色、会议整理、工作记忆组织、待办解析等文字任务，只需选择一次：本机 Ollama 或线上 OpenAI 兼容接口。各功能不再各自保存一份模型。
+- 切换到线上模型前，会先说明将发送哪些文字并请你确认；不确认就继续使用本机模型。
+- 工作记忆组织默认仍使用本机 Ollama（127.0.0.1），不会因为统一设置被悄悄发到网上。
+- 会议历史、助手窗口等界面统一显示「跟随 AI 使用模型」，不再单独选择模型。
+
+## 工作记忆日报
+
+- 新增「自动生成半天日报」：按本地时间 0–12 点、12–24 点分段，选择首次触发时间，另一半在 12 小时后自动生成；次日再根据全天原文生成完整日报。
+- 也可随时手动生成所选日期的日报，结果保存在本机日报文件夹。
+- 日报同时保存 Markdown 和 HTML；HTML 可直接用浏览器打开，包含时间范围、覆盖情况、待处理提示、来源引用和模型信息。
+- 生成失败时给出中文原因（例如模型返回格式无法识别），不再只有错误码。
+
+## 工作记忆诊断（上一版内容并入）
+
+- 「AI 自检」打开中文诊断窗口：待整理数量、卡住原因、处理模式与下次自动时间、存储与模型状态、最近整理事件。
+- 报告可复制或保存为文本文件，并提供「立即处理待整理」「恢复本机 AI」操作。
+
+## 使用提示
+
+- 线上模型只在你确认后启用；工作记忆的本机 Ollama 固定为 127.0.0.1。
+- 诊断报告和日报 HTML 不包含音频或模型文件；日报内容来自你的转写原文，请核对后再分享。
+- 体验版用于验证新功能，实际识别与整理效果因音频、模型和设备而异。
+]]></description>
+            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.12-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12460450" type="application/octet-stream" sparkle:edSignature="S/TKFALyALLsHJ6FBv2Hb2Jf2+8ZravS975Ek40H5T9WCJQCvokyjPTjUBmYjNSCGPuqc7IZZJNPGqso9pZ0AQ=="/>
+        </item>
+        <item>
             <title>0.20.10-beta.1</title>
             <pubDate>Fri, 27 Nov 2026 14:17:39 +0800</pubDate>
             <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.10-beta.1</link>
@@ -63,36 +103,6 @@
 - 体验版用于验证新功能，实际识别与整理效果因音频、模型和设备而异。
 ]]></description>
             <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.9-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12315023" type="application/octet-stream" sparkle:edSignature="b6EuJFiN/shrwUNMl3/KNqhQeM4HQ/jixYxwi3ZAsjQzO3eM4/LUUbbNvxhtA2iMTwx+oyVebE2jCFBoKxMuAw=="/>
-        </item>
-        <item>
-            <title>0.20.8-beta.1</title>
-            <pubDate>Mon, 23 Nov 2026 07:40:19 +0800</pubDate>
-            <link>https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/tag/v0.20.8-beta.1</link>
-            <sparkle:version>212</sparkle:version>
-            <sparkle:shortVersionString>0.20.8-beta.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 牛马语音助手 体验版 v0.20.8-beta.1（Build 212）
-
-只发体验版；正式版仍是 v0.20.2。
-
-## 单段 AI 整理（片段详情里直接看）
-
-- 片段详情新增 **“用本机 AI 整理这一段”**：只处理当前这段文字，不改动批次；点击后按钮下方显示“正在整理…”，完成后结果直接写进详情里的“本机 AI 整理”，列表的 AI 整理列也会显示“逐段整理”。
-- 原来的批次操作单独保留为 **“重新生成批次汇总”**，不会再和单段整理混在一起。
-
-## 批次汇总更抗错
-
-- 单个分块模型返回无法解析时，跳过该块继续汇总，不再整批报“模型输出或来源覆盖校验未通过”。
-- 模型返回字符串数组、纯文本、超长或截断内容都能接受；缺失或错误的 sourceIDs 由程序补齐。
-- 批次窗口仍有实时进度（已用时间）和完成用时。
-
-## 说明
-
-- 单段整理速度取决于模型和文本长度，通常 10～60 秒。
-- 体验版可能不稳定；本机 AI 依赖 Ollama。
-]]></description>
-            <enclosure url="https://github.com/gundam/NiumaVoiceAssistant-Downloads/releases/download/v0.20.8-beta.1/NiumaVoiceAssistant-beta-macos.zip" length="12294320" type="application/octet-stream" sparkle:edSignature="InCXAW0StclkTO+pNZxl10CklbRmmPNUDCfneMRNyx3dAhXRDXHzuw5zu1KAKXZcRwZZ2Miiuf+U0Wfg8PvEBQ=="/>
         </item>
     </channel>
 </rss>
